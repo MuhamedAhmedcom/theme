@@ -127,7 +127,14 @@ $mahx_inv = static function ( $k, $errs ) {
 			<input type="hidden" name="action" value="mahx_contact">
 			<input type="hidden" name="mx_t" value="<?php echo esc_attr( (string) time() ); ?>">
 			<input type="hidden" name="mx_page" value="<?php echo esc_url( (string) get_permalink() ); ?>">
-			<input type="hidden" name="mx_lang" value="<?php echo esc_attr( (string) apply_filters( 'wpml_current_language', null ) ); ?>">
+			<?php
+			$mahx_form_lang = apply_filters( 'wpml_current_language', null );
+			if ( is_string( $mahx_form_lang ) && '' !== $mahx_form_lang ) :
+				?>
+			<input type="hidden" name="mx_lang" value="<?php echo esc_attr( $mahx_form_lang ); ?>">
+				<?php
+			endif;
+			?>
 			<?php wp_nonce_field( 'mahx_contact', 'mx_nonce' ); ?>
 			<?php if ( function_exists( 'mahx_cf7_hidden_fields' ) ) { mahx_cf7_hidden_fields(); } ?>
 			<div class="mx-hp" aria-hidden="true"><label for="mx-website"><?php esc_html_e( 'Leave this empty', 'muhamed-ahmed-astran' ); ?></label><input type="text" id="mx-website" name="mx_website" tabindex="-1" autocomplete="off"></div>

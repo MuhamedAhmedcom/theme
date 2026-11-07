@@ -44,14 +44,15 @@ function mahx_cf7_hidden_fields() {
 	if ( ! $id ) {
 		return;
 	}
-	$post = (int) get_queried_object_id();
-	$f    = array(
+	$post          = (int) get_queried_object_id();
+	$mahx_cf7_lang = apply_filters( 'wpml_current_language', null );
+	$f             = array(
 		'_wpcf7'                => $id,
 		'_wpcf7_version'        => defined( 'WPCF7_VERSION' ) ? WPCF7_VERSION : '',
 		'_wpcf7_locale'         => determine_locale(),
 		'_wpcf7_unit_tag'       => 'wpcf7-f' . $id . '-p' . $post . '-o1',
 		'_wpcf7_container_post' => $post,
-		'mx_lang'               => 'ar' === mahx_contact_lang() ? 'ar' : 'en',
+		'mx_lang'               => is_string( $mahx_cf7_lang ) ? $mahx_cf7_lang : '',
 	);
 	foreach ( $f as $k => $v ) {
 		printf( '<input type="hidden" name="%1$s" value="%2$s">', esc_attr( $k ), esc_attr( (string) $v ) );

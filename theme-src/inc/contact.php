@@ -242,61 +242,197 @@ add_action(
 	}
 );
 
+if ( ! function_exists( 'mahx_contact_stop' ) ) {
+	/**
+	 * Terminate admin-post handling.
+	 *
+	 * wp_send_json_* already ends the request in WordPress. The explicit stop
+	 * covers the redirect path. Shutdown still runs, so language state is
+	 * restored before this is called.
+	 */
+	function mahx_contact_stop() {
+		exit;
+	}
+}
+
+/**
+ * Posted language code, or '' when the field is missing or not a string.
+ *
+ * Arrays and other types are rejected before unslash or sanitize.
+ *
+ * @return string
+ */
+function mahx_contact_posted_language() {
+	if ( ! isset( $_POST['mx_lang'] ) || ! is_string( $_POST['mx_lang'] ) ) { // phpcs:ignore WordPress.Security.NonceVerification.Missing -- language selector, checked against active languages.
+		return '';
+	}
+	$code = sanitize_key( wp_unslash( $_POST['mx_lang'] ) );
+	if ( '' === $code || strlen( $code ) > 20 ) {
+		return '';
+	}
+	return $code;
+}
+
+/**
+ * Whether WPML has registered its language API on this request.
+ *
+ * @return bool
+ */
+function mahx_contact_wpml_present() {
+	return function_exists( 'has_filter' ) && false !== has_filter( 'wpml_language_is_active' );
+}
+
+/**
+ * Whether a language code is one of the site's active WPML languages.
+ *
+ * wpml_language_is_active calls SitePress::is_active_language(), which reads
+ * the active language list directly. It does not need the front-end `wp`
+ * action. wpml_active_languages does, and admin-post.php never fires `wp`,
+ * so that hook is not used here.
+ *
+ * @param string $code Language code.
+ * @return bool
+ */
+function mahx_contact_language_is_active( $code ) {
+	if ( '' === $code ) {
+		return false;
+	}
+	return true === apply_filters( 'wpml_language_is_active', null, $code );
+}
+
+/**
+ * Active submitted language, otherwise the site default, otherwise current.
+ *
+ * An empty result means "do not switch": WPML is absent, or neither the
+ * submitted code nor the API fallbacks are active.
+ *
+ * @return string
+ */
+function mahx_contact_resolve_language() {
+	if ( ! mahx_contact_wpml_present() ) {
+		return '';
+	}
+	$requested = mahx_contact_posted_language();
+	if ( mahx_contact_language_is_active( $requested ) ) {
+		return $requested;
+	}
+	$candidates = array(
+		apply_filters( 'wpml_default_language', null ),
+		apply_filters( 'wpml_current_language', null ),
+	);
+	foreach ( $candidates as $candidate ) {
+		if ( ! is_string( $candidate ) ) {
+			continue;
+		}
+		$candidate = sanitize_key( $candidate );
+		if ( mahx_contact_language_is_active( $candidate ) ) {
+			return $candidate;
+		}
+	}
+	return '';
+}
+
+/**
+ * WordPress locale WPML has stored for a language code.
+ *
+ * The locale comes from SitePress::get_locale(), which applies the locale map
+ * and icl_languages.default_locale. The client never supplies this value.
+ *
+ * @param string $code Active language code.
+ * @return string Locale such as the value WPML stores, or '' when unknown.
+ */
+function mahx_contact_locale_for_language( $code ) {
+	global $sitepress;
+	$locale = '';
+	if ( isset( $sitepress ) && is_object( $sitepress ) && method_exists( $sitepress, 'get_locale' ) ) {
+		$locale = $sitepress->get_locale( $code );
+	}
+	if ( ! is_string( $locale ) || ! preg_match( '/^[A-Za-z]{2,3}(?:[_-][A-Za-z0-9]+)*$/', $locale ) ) {
+		return '';
+	}
+	return $locale;
+}
+
+/**
+ * Reload this theme's catalog for whatever locale is current.
+ *
+ * switch_to_locale() changes the locale. The theme catalog loaded at
+ * after_setup_theme stays in memory until it is unloaded and loaded again.
+ */
+function mahx_contact_reload_theme_translations() {
+	if ( ! function_exists( 'unload_textdomain' ) || ! function_exists( 'load_theme_textdomain' ) || ! function_exists( 'get_stylesheet_directory' ) ) {
+		return;
+	}
+	unload_textdomain( 'muhamed-ahmed-astran' );
+	load_theme_textdomain( 'muhamed-ahmed-astran', get_stylesheet_directory() . '/languages' );
+}
+
+/**
+ * Switch WPML and WordPress locale to the form language before any translation.
+ *
+ * On admin-post.php, WPML's locale callback keeps the logged-in user's admin
+ * locale (is_admin() and not AJAX). wpml_switch_language changes WPML's
+ * current language for options and string translation. switch_to_locale()
+ * plus a theme catalog reload is what makes __() follow the form.
+ *
+ * @return array{wpml:bool,locale:bool}
+ */
+function mahx_contact_begin_language() {
+	$state = array(
+		'wpml'   => false,
+		'locale' => false,
+	);
+	$code  = mahx_contact_resolve_language();
+	if ( '' === $code ) {
+		return $state;
+	}
+	do_action( 'wpml_switch_language', $code );
+	$state['wpml'] = true;
+	$locale        = mahx_contact_locale_for_language( $code );
+	if ( '' !== $locale && function_exists( 'get_locale' ) && $locale !== get_locale() && function_exists( 'switch_to_locale' ) ) {
+		if ( switch_to_locale( $locale ) ) {
+			$state['locale'] = true;
+		}
+	}
+	mahx_contact_reload_theme_translations();
+	return $state;
+}
+
+/**
+ * Close the WPML scope and undo the WordPress locale switch once.
+ *
+ * Passing null is the documented restore: WPML 4.x switch_lang(null) returns
+ * to the language captured on the first switch, and WPML 5 closes the scope
+ * that this request opened. A language code would open another scope.
+ *
+ * @param array{wpml:bool,locale:bool} $state Switch state.
+ */
+function mahx_contact_end_language( array &$state ) {
+	$restore = ! empty( $state['locale'] ) || ! empty( $state['wpml'] );
+	if ( ! empty( $state['locale'] ) && function_exists( 'restore_previous_locale' ) ) {
+		restore_previous_locale();
+	}
+	if ( ! empty( $state['wpml'] ) ) {
+		do_action( 'wpml_switch_language', null );
+	}
+	$state['locale'] = false;
+	$state['wpml']   = false;
+	if ( $restore ) {
+		mahx_contact_reload_theme_translations();
+	}
+}
+
 /**
  * Handle a submission (admin-post, JS or no-JS).
  */
 function mahx_contact_submit() {
-	/*
-	 * Capture original locale and switch to form's language before ANY translated strings.
-	 * Ensures nonce errors, validation, and success all match the visitor's form language.
-	 */
-	$original_locale = function_exists( 'get_locale' ) ? get_locale() : '';
-	$switched        = false;
-
-	/* Retrieve and validate submitted language. */
-	$form_lang_raw = isset( $_POST['mx_lang'] ) ? wp_unslash( $_POST['mx_lang'] ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Missing -- validated immediately.
-	if ( ! is_string( $form_lang_raw ) || '' === trim( $form_lang_raw ) ) {
-		$form_lang_raw = apply_filters( 'wpml_current_language', null );
-	}
-	$form_lang = is_string( $form_lang_raw ) ? sanitize_key( $form_lang_raw ) : '';
-
-	/* Fallback to WPML default or current when no valid language received. */
-	if ( '' === $form_lang ) {
-		$form_lang = apply_filters( 'wpml_default_language', null );
-		if ( ! $form_lang || ! is_string( $form_lang ) ) {
-			$form_lang = apply_filters( 'wpml_current_language', null );
-		}
-	}
-
-	/* Validate against WPML active languages; use default if invalid/disabled. */
-	if ( $form_lang ) {
-		$active_langs = apply_filters( 'wpml_active_languages', array() );
-		if ( ! is_array( $active_langs ) || ! isset( $active_langs[ $form_lang ] ) ) {
-			$form_lang = apply_filters( 'wpml_default_language', null );
-		}
-	}
-
-	/* Switch WordPress locale (loads textdomains for __()/gettext). */
-	if ( $form_lang && function_exists( 'switch_to_locale' ) ) {
-		$form_locale = apply_filters( 'wpml_locale', '', $form_lang );
-		if ( ! $form_locale || ! is_string( $form_locale ) ) {
-			/* WPML stores default_locale per language; fall back to WordPress mapping. */
-			$lang_obj    = is_array( $active_langs ) && isset( $active_langs[ $form_lang ] ) ? $active_langs[ $form_lang ] : null;
-			$form_locale = is_array( $lang_obj ) && isset( $lang_obj['default_locale'] ) ? $lang_obj['default_locale'] : '';
-		}
-		if ( $form_locale && $form_locale !== $original_locale ) {
-			$switched = switch_to_locale( $form_locale );
-		}
-	}
+	$lang_state = mahx_contact_begin_language();
 
 	$ajax   = ! empty( $_POST['mx_ajax'] ); // phpcs:ignore WordPress.Security.NonceVerification.Missing -- only selects the response format.
 	$back   = wp_get_referer() ? wp_get_referer() : home_url( '/' );
 	$errors = array();
-	$fail   = static function ( $message, $errors = array() ) use ( $ajax, $back, $switched ) {
-		/* Restore original locale before ALL exits (JSON, redirect). */
-		if ( $switched && function_exists( 'restore_current_locale' ) ) {
-			restore_current_locale();
-		}
+	$fail   = static function ( $message, $errors = array() ) use ( $ajax, $back, &$lang_state ) {
+		mahx_contact_end_language( $lang_state );
 		if ( $ajax ) {
 			wp_send_json_error(
 				array(
@@ -304,6 +440,7 @@ function mahx_contact_submit() {
 					'errors'  => $errors,
 				)
 			);
+			mahx_contact_stop();
 		}
 		$key = wp_generate_password( 12, false );
 		set_transient(
@@ -316,7 +453,7 @@ function mahx_contact_submit() {
 			10 * MINUTE_IN_SECONDS
 		);
 		wp_safe_redirect( add_query_arg( 'mx_cf', $key, remove_query_arg( array( 'mx_cf', 'mx_sent' ), $back ) ) . '#mx-form' );
-		exit;
+		mahx_contact_stop();
 	};
 
 	if ( ! isset( $_POST['mx_nonce'] ) || ! wp_verify_nonce( sanitize_key( wp_unslash( $_POST['mx_nonce'] ) ), 'mahx_contact' ) ) {
@@ -422,17 +559,14 @@ function mahx_contact_submit() {
 	set_transient( $rkey, $hits + 1, HOUR_IN_SECONDS );
 
 	$ok = (string) mahx_opt( 'cf_success' );
-
-	/* Restore original locale before all exits. */
-	if ( $switched && function_exists( 'restore_current_locale' ) ) {
-		restore_current_locale();
-	}
+	mahx_contact_end_language( $lang_state );
 
 	if ( $ajax ) {
 		wp_send_json_success( array( 'message' => $ok ) );
+		mahx_contact_stop();
 	}
 	wp_safe_redirect( add_query_arg( 'mx_sent', '1', remove_query_arg( 'mx_cf', $back ) ) . '#mx-form' );
-	exit;
+	mahx_contact_stop();
 }
 add_action( 'admin_post_nopriv_mahx_contact', 'mahx_contact_submit' );
 add_action( 'admin_post_mahx_contact', 'mahx_contact_submit' );

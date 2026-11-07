@@ -149,9 +149,9 @@ async function runTests() {
   
   const emptyResult = requests2.filter(r => r.method === 'POST')[0]?.url === 'https://muhamedahmed.com/en/contact/';
   if (emptyResult) {
-    console.log('  ✓ PASS: https://muhamedahmed.com/en/contact/ (uses base URI)');
+    console.log('  ✓ PASS: https://muhamedahmed.com/en/contact/ (document URL; this fixture base href matches it)');
   } else {
-    console.log('  ✗ FAIL: Empty action did not resolve to base URI');
+    console.log('  ✗ FAIL: Empty action did not resolve to the document URL');
   }
   fixedResults.push(emptyResult);
   
