@@ -137,8 +137,7 @@
 			if (live) { live.className = 'mx-form__status'; live.textContent = i18n.sending || ''; }
 			var data = new FormData(f); data.append('mx_ajax', '1');
 			var actionAttr = f.getAttribute('action');
-			var base = document.baseURI && document.baseURI !== 'about:blank' ? document.baseURI : location.href;
-			var actionURL = (actionAttr == null || actionAttr === '') ? base : new URL(actionAttr, base).href;
+			var actionURL = (actionAttr == null || actionAttr === '') ? location.href : new URL(actionAttr, document.baseURI).href;
 			fetch(actionURL, { method: 'POST', body: data, credentials: 'same-origin' }).then(mxReadAjaxJson).then(function (res) {
 				if (btn) { btn.disabled = false; }
 				if (!res || typeof res !== 'object') { throw new Error('non-json'); }
