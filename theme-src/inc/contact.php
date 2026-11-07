@@ -246,28 +246,57 @@ add_action(
  * Handle a submission (admin-post, JS or no-JS).
  */
 function mahx_contact_submit() {
-	/* Establish language context from form before any translated strings. */
-	$original_lang = apply_filters( 'wpml_current_language', null );
-	$form_lang     = isset( $_POST['mx_lang'] ) ? sanitize_key( wp_unslash( $_POST['mx_lang'] ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Missing -- validated next.
-	if ( '' === $form_lang ) {
-		$form_lang = $original_lang ? $original_lang : 'en';
-	}
-	$active_langs = apply_filters( 'wpml_active_languages', array() );
-	if ( ! isset( $active_langs[ $form_lang ] ) ) {
-		$form_lang = 'en'; // Safe fallback when submitted language is not active.
-	}
-	/**
-	 * Switch to the form's language so validation errors, nonce failures, and
-	 * success messages match the language of the page the visitor saw.
-	 *
-	 * When WPML is not active, this does nothing and WordPress locale stays as-is.
+	/*
+	 * Capture original locale and switch to form's language before ANY translated strings.
+	 * Ensures nonce errors, validation, and success all match the visitor's form language.
 	 */
-	do_action( 'wpml_switch_language', $form_lang );
+	$original_locale = function_exists( 'get_locale' ) ? get_locale() : '';
+	$switched        = false;
+
+	/* Retrieve and validate submitted language. */
+	$form_lang_raw = isset( $_POST['mx_lang'] ) ? wp_unslash( $_POST['mx_lang'] ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Missing -- validated immediately.
+	if ( ! is_string( $form_lang_raw ) || '' === trim( $form_lang_raw ) ) {
+		$form_lang_raw = apply_filters( 'wpml_current_language', null );
+	}
+	$form_lang = is_string( $form_lang_raw ) ? sanitize_key( $form_lang_raw ) : '';
+
+	/* Fallback to WPML default or current when no valid language received. */
+	if ( '' === $form_lang ) {
+		$form_lang = apply_filters( 'wpml_default_language', null );
+		if ( ! $form_lang || ! is_string( $form_lang ) ) {
+			$form_lang = apply_filters( 'wpml_current_language', null );
+		}
+	}
+
+	/* Validate against WPML active languages; use default if invalid/disabled. */
+	if ( $form_lang ) {
+		$active_langs = apply_filters( 'wpml_active_languages', array() );
+		if ( ! is_array( $active_langs ) || ! isset( $active_langs[ $form_lang ] ) ) {
+			$form_lang = apply_filters( 'wpml_default_language', null );
+		}
+	}
+
+	/* Switch WordPress locale (loads textdomains for __()/gettext). */
+	if ( $form_lang && function_exists( 'switch_to_locale' ) ) {
+		$form_locale = apply_filters( 'wpml_locale', '', $form_lang );
+		if ( ! $form_locale || ! is_string( $form_locale ) ) {
+			/* WPML stores default_locale per language; fall back to WordPress mapping. */
+			$lang_obj    = is_array( $active_langs ) && isset( $active_langs[ $form_lang ] ) ? $active_langs[ $form_lang ] : null;
+			$form_locale = is_array( $lang_obj ) && isset( $lang_obj['default_locale'] ) ? $lang_obj['default_locale'] : '';
+		}
+		if ( $form_locale && $form_locale !== $original_locale ) {
+			$switched = switch_to_locale( $form_locale );
+		}
+	}
 
 	$ajax   = ! empty( $_POST['mx_ajax'] ); // phpcs:ignore WordPress.Security.NonceVerification.Missing -- only selects the response format.
 	$back   = wp_get_referer() ? wp_get_referer() : home_url( '/' );
 	$errors = array();
-	$fail   = static function ( $message, $errors = array() ) use ( $ajax, $back ) {
+	$fail   = static function ( $message, $errors = array() ) use ( $ajax, $back, $switched ) {
+		/* Restore original locale before ALL exits (JSON, redirect). */
+		if ( $switched && function_exists( 'restore_current_locale' ) ) {
+			restore_current_locale();
+		}
 		if ( $ajax ) {
 			wp_send_json_error(
 				array(
@@ -393,16 +422,14 @@ function mahx_contact_submit() {
 	set_transient( $rkey, $hits + 1, HOUR_IN_SECONDS );
 
 	$ok = (string) mahx_opt( 'cf_success' );
-	if ( $ajax ) {
-		/* Restore original language after processing (if switched). */
-		if ( $original_lang && $original_lang !== $form_lang ) {
-			do_action( 'wpml_switch_language', $original_lang );
-		}
-		wp_send_json_success( array( 'message' => $ok ) );
+
+	/* Restore original locale before all exits. */
+	if ( $switched && function_exists( 'restore_current_locale' ) ) {
+		restore_current_locale();
 	}
-	/* Restore original language before redirect. */
-	if ( $original_lang && $original_lang !== $form_lang ) {
-		do_action( 'wpml_switch_language', $original_lang );
+
+	if ( $ajax ) {
+		wp_send_json_success( array( 'message' => $ok ) );
 	}
 	wp_safe_redirect( add_query_arg( 'mx_sent', '1', remove_query_arg( 'mx_cf', $back ) ) . '#mx-form' );
 	exit;
