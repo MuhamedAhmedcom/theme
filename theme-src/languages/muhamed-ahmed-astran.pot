@@ -1,0 +1,1687 @@
+# Copyright (C) 2026 ProWPSite
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Muhamed Ahmed Astra 1.8.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/muhamed-ahmed-astran\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-28T03:51:39+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: muhamed-ahmed-astran\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "Muhamed Ahmed Astra"
+msgstr ""
+
+#. Theme URI of the theme
+#. Author URI of the theme
+#: style.css
+msgid "https://muhamedahmed.com"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "An Astra child theme for Muhamed Ahmed. The homepage is built from"
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "ProWPSite"
+msgstr ""
+
+#: behaviour.php:59
+#: inc/assets.php:73
+#: inc/options.php:389
+msgid "System"
+msgstr ""
+
+#: behaviour.php:60
+#: inc/assets.php:74
+#: inc/options.php:390
+msgid "Light"
+msgstr ""
+
+#: behaviour.php:61
+#: inc/assets.php:75
+#: inc/options.php:391
+msgid "Dark"
+msgstr ""
+
+#. translators: %s: current theme mode (System, Light, or Dark).
+#: behaviour.php:64
+#, php-format
+msgid "Colour theme: %s"
+msgstr ""
+
+#: behaviour.php:65
+#: header-mx.php:54
+#: inc/assets.php:77
+msgid "Open menu"
+msgstr ""
+
+#: behaviour.php:66
+#: inc/assets.php:78
+msgid "Close menu"
+msgstr ""
+
+#: footer-mx.php:74
+#: page-contact.php:95
+#: template-parts/home/about.php:49
+msgid "Profiles"
+msgstr ""
+
+#: footer-mx.php:76
+#: footer-mx.php:129
+#: footer-mx.php:167
+#: footer-mx.php:170
+#: header-mx.php:36
+#: page-contact.php:82
+#: page-contact.php:92
+#: page-contact.php:97
+#: template-parts/home/clients.php:44
+msgid "(opens in a new tab)"
+msgstr ""
+
+#: footer-mx.php:129
+#: inc/options.php:371
+#: page-contact.php:82
+msgid "WhatsApp"
+msgstr ""
+
+#: footer-mx.php:155
+msgid "Back to top"
+msgstr ""
+
+#: functions.php:203
+msgid "Skip to content"
+msgstr ""
+
+#: header-mx.php:22
+msgid "Primary"
+msgstr ""
+
+#: header-mx.php:50
+msgid "Colour theme"
+msgstr ""
+
+#. translators: %s: search query.
+#: home.php:16
+#, php-format
+msgid "Search: %s"
+msgstr ""
+
+#: home.php:40
+msgid "Categories"
+msgstr ""
+
+#: home.php:41
+msgid "All"
+msgstr ""
+
+#: home.php:48
+msgid "Search articles"
+msgstr ""
+
+#: home.php:49
+msgid "Search articles…"
+msgstr ""
+
+#: home.php:50
+msgid "Search"
+msgstr ""
+
+#: home.php:74
+msgid "Pagination"
+msgstr ""
+
+#: home.php:79
+msgid "Newer"
+msgstr ""
+
+#: home.php:80
+msgid "Older"
+msgstr ""
+
+#: home.php:87
+msgid "No articles yet."
+msgstr ""
+
+#: inc/assets.php:16
+msgid "v1.8 header"
+msgstr ""
+
+#: inc/assets.php:17
+msgid "Footer column 1"
+msgstr ""
+
+#: inc/assets.php:18
+msgid "Footer column 2"
+msgstr ""
+
+#: inc/assets.php:19
+msgid "Footer column 3"
+msgstr ""
+
+#: inc/assets.php:20
+msgid "Footer bottom line (privacy, terms)"
+msgstr ""
+
+#. translators: %s: current colour mode.
+#: inc/assets.php:71
+#, php-format
+msgid "Colour mode: %s"
+msgstr ""
+
+#: inc/assets.php:79
+msgid "Sending…"
+msgstr ""
+
+#: inc/assets.php:80
+msgid "Something went wrong. Please try again or email me directly."
+msgstr ""
+
+#: inc/assets.php:187
+msgid "Show submenu"
+msgstr ""
+
+#. translators: %s: minutes.
+#: inc/blog.php:33
+#, php-format
+msgid "%s min read"
+msgid_plural "%s min read"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/clients.php:17
+msgid "Clients"
+msgstr ""
+
+#: inc/clients.php:18
+#: inc/meta.php:46
+msgid "Client"
+msgstr ""
+
+#: inc/clients.php:19
+msgid "Add client"
+msgstr ""
+
+#: inc/clients.php:20
+msgid "Edit client"
+msgstr ""
+
+#: inc/clients.php:65
+#: inc/meta.php:49
+msgid "Logo"
+msgstr ""
+
+#: inc/clients.php:66
+msgid "Website"
+msgstr ""
+
+#: inc/clients.php:67
+#: inc/options.php:83
+msgid "Order"
+msgstr ""
+
+#: inc/clients.php:94
+#: inc/clients.php:131
+msgid "Add many clients"
+msgstr ""
+
+#: inc/clients.php:95
+msgid "Add many"
+msgstr ""
+
+#. translators: %d: number of clients created.
+#: inc/clients.php:134
+#, php-format
+msgid "%d client added. Open each one to choose its logo."
+msgid_plural "%d clients added. Open each one to choose its logo."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/clients.php:136
+msgid "One client per line: Name | https://website (the website is optional)."
+msgstr ""
+
+#: inc/clients.php:139
+msgid "Add clients"
+msgstr ""
+
+#: inc/clients.php:140
+msgid "Logos and screenshots can also be imported in one go with WP-CLI: wp mx import-clients clients.json"
+msgstr ""
+
+#: inc/contact.php:64
+msgid "Enquiries"
+msgstr ""
+
+#: inc/contact.php:65
+msgid "Enquiry"
+msgstr ""
+
+#: inc/contact.php:114
+msgid "Your session expired. Please reload the page and send again."
+msgstr ""
+
+#: inc/contact.php:119
+msgid "Please wait a moment and send again."
+msgstr ""
+
+#: inc/contact.php:124
+msgid "Too many messages in a short time. Please try again later or email me directly."
+msgstr ""
+
+#: inc/contact.php:140
+msgid "The spam check failed. Please try again."
+msgstr ""
+
+#: inc/contact.php:155
+msgid "Please enter your name."
+msgstr ""
+
+#: inc/contact.php:158
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: inc/contact.php:161
+msgid "Please enter a valid phone number or leave it empty."
+msgstr ""
+
+#: inc/contact.php:164
+msgid "Please write a short message (at least 10 characters)."
+msgstr ""
+
+#: inc/contact.php:167
+msgid "Please confirm the consent box."
+msgstr ""
+
+#: inc/contact.php:170
+msgid "Please check the highlighted fields."
+msgstr ""
+
+#: inc/contact.php:176
+msgid "Name"
+msgstr ""
+
+#: inc/contact.php:177
+#: inc/options.php:174
+#: page-contact.php:76
+msgid "Email"
+msgstr ""
+
+#: inc/contact.php:178
+#: page-contact.php:79
+msgid "Phone"
+msgstr ""
+
+#: inc/contact.php:179
+msgid "Service"
+msgstr ""
+
+#: inc/contact.php:180
+#: inc/options.php:180
+msgid "Budget"
+msgstr ""
+
+#: inc/contact.php:181
+msgid "Page"
+msgstr ""
+
+#: inc/contact.php:203
+msgid "The message could not be sent. Please email me directly."
+msgstr ""
+
+#. translators: %d: rating from 1 to 5.
+#: inc/data.php:415
+#, php-format
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: inc/entity.php:113
+msgid "Home"
+msgstr ""
+
+#: inc/meta.php:23
+msgid "Project screenshots"
+msgstr ""
+
+#: inc/meta.php:26
+msgid "Desktop screenshot (PC)"
+msgstr ""
+
+#: inc/meta.php:26
+msgid "Shown in the MacBook and on project cards. Landscape, at least 1600 × 1000 px, top of the page. Saved as the featured image."
+msgstr ""
+
+#: inc/meta.php:27
+msgid "Desktop screenshot alt text"
+msgstr ""
+
+#: inc/meta.php:27
+msgid "Describe what the screenshot shows. Empty = the image alt text, then the project title."
+msgstr ""
+
+#: inc/meta.php:28
+msgid "Mobile screenshot (phone)"
+msgstr ""
+
+#: inc/meta.php:28
+msgid "Shown in the phone. Portrait, at least 780 × 1688 px. Empty = the desktop screenshot."
+msgstr ""
+
+#: inc/meta.php:29
+msgid "Mobile screenshot alt text"
+msgstr ""
+
+#: inc/meta.php:29
+msgid "Empty = the image alt text, then the project title."
+msgstr ""
+
+#: inc/meta.php:30
+msgid "Focal point (optional)"
+msgstr ""
+
+#: inc/meta.php:30
+msgid "Which part stays visible when a screenshot is cropped, as CSS object-position, e.g. \"50% 0%\" (top, default) or \"50% 50%\" (centre)."
+msgstr ""
+
+#: inc/meta.php:34
+msgid "Service details"
+msgstr ""
+
+#: inc/meta.php:37
+msgid "Icon (optional)"
+msgstr ""
+
+#: inc/meta.php:37
+msgid "Square SVG or PNG, at least 96 × 96 px. Shown on the Services page."
+msgstr ""
+
+#: inc/meta.php:38
+msgid "What is included"
+msgstr ""
+
+#: inc/meta.php:38
+msgid "One point per line, shown as a checklist on the Services page."
+msgstr ""
+
+#: inc/meta.php:39
+msgid "Price from (optional)"
+msgstr ""
+
+#: inc/meta.php:39
+msgid "E.g. \"$900\". Empty hides the price."
+msgstr ""
+
+#: inc/meta.php:40
+msgid "Link (optional)"
+msgstr ""
+
+#: inc/meta.php:40
+msgid "A page with more detail. Empty = the contact page with this service pre-selected."
+msgstr ""
+
+#: inc/meta.php:41
+msgid "Who it is for"
+msgstr ""
+
+#: inc/meta.php:41
+msgid "Shown after “For” under the service, e.g. “brands running more than one store”."
+msgstr ""
+
+#: inc/meta.php:49
+msgid "SVG or transparent PNG, about 320 × 120 px. Alt text = client name."
+msgstr ""
+
+#: inc/meta.php:50
+msgid "Website URL"
+msgstr ""
+
+#: inc/meta.php:50
+msgid "Used when \"Link logos\" is on."
+msgstr ""
+
+#: inc/meta.php:53
+msgid "Logo tone"
+msgstr ""
+
+#: inc/meta.php:54
+msgid "Dark logos sit on a white pill, light logos on a dark pill, colour keeps its colours."
+msgstr ""
+
+#: inc/meta.php:56
+msgid "Dark logo (default)"
+msgstr ""
+
+#: inc/meta.php:57
+msgid "Light / white logo"
+msgstr ""
+
+#: inc/meta.php:58
+msgid "Colour logo (no greyscale)"
+msgstr ""
+
+#: inc/meta.php:63
+msgid "Visibility"
+msgstr ""
+
+#: inc/meta.php:64
+msgid "Hide without deleting. Order: Page attributes > Order."
+msgstr ""
+
+#: inc/meta.php:66
+msgid "Show in the strip"
+msgstr ""
+
+#: inc/meta.php:67
+msgid "Hide"
+msgstr ""
+
+#: inc/meta.php:70
+msgid "Desktop screenshot (optional)"
+msgstr ""
+
+#: inc/meta.php:70
+msgid "At least 1600 × 1000 px."
+msgstr ""
+
+#: inc/meta.php:71
+msgid "Mobile screenshot (optional)"
+msgstr ""
+
+#: inc/meta.php:71
+msgid "At least 780 × 1688 px."
+msgstr ""
+
+#: inc/meta.php:75
+msgid "Star rating"
+msgstr ""
+
+#: inc/meta.php:78
+msgid "Rating (1-5 stars)"
+msgstr ""
+
+#: inc/meta.php:78
+msgid "Use the rating the client actually gave. Empty shows 5 stars but is not sent to search engines."
+msgstr ""
+
+#: inc/meta.php:83
+msgid "Search & sharing"
+msgstr ""
+
+#: inc/meta.php:86
+msgid "SEO title"
+msgstr ""
+
+#: inc/meta.php:86
+msgid "Up to about 60 characters; lead with the search phrase. Empty = post title."
+msgstr ""
+
+#: inc/meta.php:87
+msgid "Meta description"
+msgstr ""
+
+#: inc/meta.php:87
+msgid "Up to about 155 characters. Empty = excerpt, then the site default."
+msgstr ""
+
+#: inc/meta.php:88
+msgid "Share image"
+msgstr ""
+
+#: inc/meta.php:88
+msgid "1200 × 630 px works everywhere. Empty = featured image, then the site default."
+msgstr ""
+
+#: inc/meta.php:170
+msgid "Choose a screenshot"
+msgstr ""
+
+#: inc/meta.php:171
+msgid "Use this image"
+msgstr ""
+
+#: inc/meta.php:197
+msgid "No image chosen: the fallback in the help text is used."
+msgstr ""
+
+#: inc/meta.php:208
+msgid "Replace image"
+msgstr ""
+
+#: inc/meta.php:208
+msgid "Choose / upload"
+msgstr ""
+
+#: inc/meta.php:209
+msgid "Remove"
+msgstr ""
+
+#: inc/meta.php:218
+msgid "Not set"
+msgstr ""
+
+#: inc/options.php:23
+msgid "Navy + teal (trust, calm, senior)"
+msgstr ""
+
+#: inc/options.php:24
+msgid "Hire me"
+msgstr ""
+
+#: inc/options.php:27
+msgid "Black + violet (modern, premium, AI)"
+msgstr ""
+
+#: inc/options.php:28
+#: inc/options.php:168
+msgid "Book a call"
+msgstr ""
+
+#: inc/options.php:31
+msgid "White + blue (corporate, highest trust)"
+msgstr ""
+
+#: inc/options.php:32
+msgid "Get a quote"
+msgstr ""
+
+#: inc/options.php:35
+msgid "Cream + orange (warm, human, freelance)"
+msgstr ""
+
+#: inc/options.php:36
+#: inc/options.php:91
+#: inc/options.php:148
+msgid "Start a project"
+msgstr ""
+
+#: inc/options.php:39
+msgid "Graphite + lime (hacker, terminal, bold)"
+msgstr ""
+
+#: inc/options.php:40
+msgid "Let's talk"
+msgstr ""
+
+#: inc/options.php:55
+msgid "Colour palette"
+msgstr ""
+
+#: inc/options.php:56
+msgid "Colour mode"
+msgstr ""
+
+#: inc/options.php:57
+msgid "Who picks the mode"
+msgstr ""
+
+#: inc/options.php:58
+msgid "Look preset (one switch for hero style, card radius, spacing and motion)"
+msgstr ""
+
+#: inc/options.php:59
+msgid "Motion (reduced-motion visitors always get none)"
+msgstr ""
+
+#: inc/options.php:60
+msgid "CTA label override (empty = palette default)"
+msgstr ""
+
+#: inc/options.php:61
+msgid "CTA link"
+msgstr ""
+
+#: inc/options.php:62
+msgid "Homepage renderer"
+msgstr ""
+
+#: inc/options.php:63
+msgid "Save new JPEG/PNG uploads as WebP"
+msgstr ""
+
+#: inc/options.php:64
+msgid "Availability badge (empty hides it)"
+msgstr ""
+
+#: inc/options.php:65
+msgid "Online stores and websites that *sell*, load *fast* and save you time."
+msgstr ""
+
+#: inc/options.php:65
+msgid "Headline (wrap words in *asterisks* to highlight)"
+msgstr ""
+
+#: inc/options.php:66
+msgid "I build WooCommerce stores and business websites, including for brands that run more than one shop or site, and add what pays back: automation, speed optimisation, AI tooling and conversion fixes."
+msgstr ""
+
+#: inc/options.php:66
+msgid "Intro paragraph"
+msgstr ""
+
+#: inc/options.php:67
+msgid "See the work"
+msgstr ""
+
+#: inc/options.php:67
+msgid "Secondary button label"
+msgstr ""
+
+#: inc/options.php:68
+msgid "Secondary button link"
+msgstr ""
+
+#: inc/options.php:69
+msgid ""
+"E-commerce stores\n"
+"WooCommerce\n"
+"Speed optimisation\n"
+"Automation\n"
+"AI tooling\n"
+"Conversion"
+msgstr ""
+
+#: inc/options.php:69
+msgid "Skill chips (one per line)"
+msgstr ""
+
+#: inc/options.php:70
+msgid "Portrait photo: upload at least 1200 × 1500 px (portrait, 4:5); smaller photos are shown smaller so they stay sharp"
+msgstr ""
+
+#: inc/options.php:71
+msgid "Portrait focal point (CSS object-position)"
+msgstr ""
+
+#: inc/options.php:72
+msgid "Portrait card: name (fallback: panel identity)"
+msgstr ""
+
+#: inc/options.php:73
+msgid "Portrait card: role (fallback: panel identity)"
+msgstr ""
+
+#: inc/options.php:74
+msgid "Stores and sites I built"
+msgstr ""
+
+#: inc/options.php:74
+#: inc/options.php:77
+#: inc/options.php:81
+#: inc/options.php:85
+#: inc/options.php:91
+#: inc/options.php:127
+#: inc/options.php:152
+#: inc/options.php:163
+msgid "Eyebrow"
+msgstr ""
+
+#: inc/options.php:75
+msgid "Projects shown on the devices"
+msgstr ""
+
+#: inc/options.php:76
+msgid "View project"
+msgstr ""
+
+#: inc/options.php:76
+msgid "Project link label"
+msgstr ""
+
+#: inc/options.php:77
+#: inc/options.php:141
+msgid "Solutions"
+msgstr ""
+
+#: inc/options.php:78
+msgid "Solutions that *add value*, not just pages"
+msgstr ""
+
+#: inc/options.php:78
+#: inc/options.php:82
+#: inc/options.php:86
+#: inc/options.php:92
+msgid "Title"
+msgstr ""
+
+#: inc/options.php:79
+msgid "From a first online store to a group of sites: development, speed, automation and AI tools chosen for what they save or earn."
+msgstr ""
+
+#: inc/options.php:79
+#: inc/options.php:154
+#: inc/options.php:165
+msgid "Intro"
+msgstr ""
+
+#: inc/options.php:80
+msgid "For"
+msgstr ""
+
+#: inc/options.php:80
+msgid "Audience prefix"
+msgstr ""
+
+#: inc/options.php:81
+msgid "Client words"
+msgstr ""
+
+#: inc/options.php:82
+msgid "What clients say"
+msgstr ""
+
+#: inc/options.php:84
+msgid "How many"
+msgstr ""
+
+#: inc/options.php:85
+msgid "Journal"
+msgstr ""
+
+#: inc/options.php:86
+msgid "Notes on online stores, speed, automation and AI"
+msgstr ""
+
+#: inc/options.php:87
+msgid "Posts on the homepage (0 hides)"
+msgstr ""
+
+#: inc/options.php:88
+msgid "Table of contents on posts"
+msgstr ""
+
+#: inc/options.php:89
+msgid "Related posts (0 hides)"
+msgstr ""
+
+#: inc/options.php:90
+msgid "Reading speed (words per minute)"
+msgstr ""
+
+#: inc/options.php:92
+msgid "Need a store or site that *works harder*?"
+msgstr ""
+
+#: inc/options.php:93
+msgid "Share what you sell and where things slow down, and we can map out a practical plan."
+msgstr ""
+
+#: inc/options.php:93
+msgid "Text"
+msgstr ""
+
+#: inc/options.php:94
+msgid "Public email (fallback: panel identity)"
+msgstr ""
+
+#: inc/options.php:95
+msgid "Form shortcode (e.g. Fluent Forms)"
+msgstr ""
+
+#: inc/options.php:96
+msgid "Footer note"
+msgstr ""
+
+#: inc/options.php:97
+msgid "I verified the panel stats; show them publicly (until then only editors see them, flagged)"
+msgstr ""
+
+#: inc/options.php:98
+msgid "%name% | WooCommerce & WordPress Developer in Egypt"
+msgstr ""
+
+#: inc/options.php:98
+msgid "Homepage title; %name% = your name (used when no SEO plugin is active)"
+msgstr ""
+
+#: inc/options.php:99
+msgid "WooCommerce developer in Egypt building professional online stores and business websites: e-commerce development, website speed optimisation, automation and AI tooling."
+msgstr ""
+
+#: inc/options.php:99
+msgid "Homepage / default meta description"
+msgstr ""
+
+#: inc/options.php:100
+msgid "Journal: online stores, WooCommerce and website speed"
+msgstr ""
+
+#: inc/options.php:100
+msgid "Blog index title"
+msgstr ""
+
+#: inc/options.php:101
+msgid "X / Twitter handle (e.g. @name)"
+msgstr ""
+
+#: inc/options.php:102
+msgid "Your name as search engines should show it (fallback: panel identity)"
+msgstr ""
+
+#: inc/options.php:103
+msgid "Other spellings of your name, one per line (e.g. the Arabic spelling)"
+msgstr ""
+
+#: inc/options.php:104
+msgid "Skills for knowsAbout, one per line (fallback: hero chips)"
+msgstr ""
+
+#: inc/options.php:105
+msgid "Business / studio name for ProfessionalService (fallback: site title)"
+msgstr ""
+
+#: inc/options.php:106
+msgid "Area served (e.g. Egypt, Worldwide); empty omits it"
+msgstr ""
+
+#: inc/options.php:107
+msgid "Show the About section on the homepage"
+msgstr ""
+
+#: inc/options.php:108
+msgid "About %name%"
+msgstr ""
+
+#: inc/options.php:108
+msgid "About section title; %name% = your name"
+msgstr ""
+
+#: inc/options.php:109
+msgid "About text (fallback: panel identity bio)"
+msgstr ""
+
+#: inc/options.php:110
+msgid "Summary at the top of /llms.txt (fallback: homepage description)"
+msgstr ""
+
+#: inc/options.php:111
+msgid "AI crawlers (GPTBot, ClaudeBot, Google-Extended, PerplexityBot…) in robots.txt"
+msgstr ""
+
+#: inc/options.php:112
+msgid "WordPress & WooCommerce developer"
+msgstr ""
+
+#: inc/options.php:112
+msgid "Person job title (schema)"
+msgstr ""
+
+#: inc/options.php:113
+msgid "Profile URLs (GitHub, LinkedIn, X, Behance…), one per line: used for sameAs and rel=me links"
+msgstr ""
+
+#: inc/options.php:114
+msgid "Logo for light mode (SVG or transparent PNG at 2x, e.g. 600 × 192 px; empty = Site Identity logo, then the site title as a wordmark)"
+msgstr ""
+
+#: inc/options.php:115
+msgid "Logo for dark mode (light-coloured version; empty = light-mode logo)"
+msgstr ""
+
+#: inc/options.php:116
+msgid "Logo height on desktop (px)"
+msgstr ""
+
+#: inc/options.php:117
+msgid "Logo height on phones (px)"
+msgstr ""
+
+#: inc/options.php:118
+msgid "Show WhatsApp buttons (only when a number is set here or in the panel identity)"
+msgstr ""
+
+#: inc/options.php:119
+msgid "WhatsApp number in international format, digits only, e.g. 201001234567 (empty = panel identity)"
+msgstr ""
+
+#: inc/options.php:120
+msgid "Hi, I would like to talk about a project."
+msgstr ""
+
+#: inc/options.php:120
+msgid "Prefilled message"
+msgstr ""
+
+#: inc/options.php:121
+#: page-contact.php:82
+msgid "Chat on WhatsApp"
+msgstr ""
+
+#: inc/options.php:121
+msgid "Button label"
+msgstr ""
+
+#: inc/options.php:122
+msgid "Floating button position"
+msgstr ""
+
+#: inc/options.php:123
+msgid "Floating button on desktop"
+msgstr ""
+
+#: inc/options.php:124
+msgid "WhatsApp on phones (floating button and in the menu)"
+msgstr ""
+
+#: inc/options.php:125
+msgid "Phones: use a sticky bottom bar (WhatsApp + main CTA) instead of the floating button"
+msgstr ""
+
+#: inc/options.php:126
+msgid "Show the client logos strip (Clients menu in the admin; hidden while no client has a logo)"
+msgstr ""
+
+#: inc/options.php:127
+msgid "Trusted by"
+msgstr ""
+
+#: inc/options.php:128
+msgid "Brands that trusted me with their stores and sites"
+msgstr ""
+
+#: inc/options.php:128
+msgid "Title (empty hides it)"
+msgstr ""
+
+#: inc/options.php:129
+msgid "Intro text (empty hides it)"
+msgstr ""
+
+#: inc/options.php:130
+msgid "Seconds for one full loop (higher = slower)"
+msgstr ""
+
+#: inc/options.php:131
+msgid "Scroll direction"
+msgstr ""
+
+#: inc/options.php:132
+msgid "Pause on hover and keyboard focus"
+msgstr ""
+
+#: inc/options.php:133
+msgid "Greyscale logos until hover"
+msgstr ""
+
+#: inc/options.php:134
+msgid "Logo height (px)"
+msgstr ""
+
+#: inc/options.php:135
+msgid "Link logos to the client websites"
+msgstr ""
+
+#: inc/options.php:136
+msgid "Link rel attribute"
+msgstr ""
+
+#: inc/options.php:137
+msgid "Show the brand and tagline"
+msgstr ""
+
+#: inc/options.php:138
+msgid "Online stores, websites and automation that save time and grow sales, on WordPress, Shopify, Salla and custom stacks."
+msgstr ""
+
+#: inc/options.php:138
+msgid "Footer tagline (empty = hero intro)"
+msgstr ""
+
+#: inc/options.php:139
+msgid "Show the link columns (Appearance > Menus: \"Footer column 1/2/3\"; empty columns fall back to pages, services and latest posts)"
+msgstr ""
+
+#: inc/options.php:140
+msgid "Explore"
+msgstr ""
+
+#: inc/options.php:140
+msgid "Column 1 heading"
+msgstr ""
+
+#: inc/options.php:141
+msgid "Column 2 heading"
+msgstr ""
+
+#: inc/options.php:142
+msgid "Latest notes"
+msgstr ""
+
+#: inc/options.php:142
+msgid "Column 3 heading"
+msgstr ""
+
+#: inc/options.php:143
+msgid "Show the contact block (email, phone, WhatsApp, location from the panel identity)"
+msgstr ""
+
+#: inc/options.php:144
+msgid "Get in touch"
+msgstr ""
+
+#: inc/options.php:144
+msgid "Contact block heading"
+msgstr ""
+
+#: inc/options.php:145
+msgid "Show social profiles (Name & profiles > Profile URLs)"
+msgstr ""
+
+#: inc/options.php:146
+msgid "Show the call-to-action band"
+msgstr ""
+
+#: inc/options.php:147
+msgid "Have a store or site in mind?"
+msgstr ""
+
+#: inc/options.php:147
+msgid "CTA band title"
+msgstr ""
+
+#: inc/options.php:148
+msgid "CTA button label (links to the CTA link in Design)"
+msgstr ""
+
+#: inc/options.php:149
+msgid "Show the back-to-top button"
+msgstr ""
+
+#: inc/options.php:150
+msgid "Use the designed Services page (off = the page content as written in the editor)"
+msgstr ""
+
+#: inc/options.php:151
+msgid "Slug of the page that gets this design (or pick the \"MX Services\" template on any page)"
+msgstr ""
+
+#: inc/options.php:152
+#: inc/options.php:362
+msgid "Services"
+msgstr ""
+
+#: inc/options.php:153
+msgid "Effective solutions for *productivity* and online stores that *sell*"
+msgstr ""
+
+#: inc/options.php:153
+#: inc/options.php:164
+msgid "Title (*asterisks* highlight)"
+msgstr ""
+
+#: inc/options.php:154
+msgid "Stores and websites on WordPress, WooCommerce, Shopify, Salla and custom stacks, plus the automation and AI tooling that saves your team hours every week."
+msgstr ""
+
+#: inc/options.php:155
+msgid "From"
+msgstr ""
+
+#: inc/options.php:155
+msgid "Price prefix (service edit screen > Price from)"
+msgstr ""
+
+#: inc/options.php:156
+msgid "Ask about this"
+msgstr ""
+
+#: inc/options.php:156
+msgid "Service link label"
+msgstr ""
+
+#: inc/options.php:157
+msgid "How we work"
+msgstr ""
+
+#: inc/options.php:157
+msgid "Process heading (empty hides the process)"
+msgstr ""
+
+#: inc/options.php:158
+msgid ""
+"Discovery | We map what you sell, where time is lost and what success looks like.\n"
+"Plan | A clear scope, platform choice, timeline and fixed price.\n"
+"Build | Weekly previews on a staging site you can click through.\n"
+"Launch and grow | Go live, measure, then automate and optimise."
+msgstr ""
+
+#: inc/options.php:158
+msgid "Process steps, one per line: Title | text"
+msgstr ""
+
+#: inc/options.php:159
+msgid "Questions"
+msgstr ""
+
+#: inc/options.php:159
+msgid "FAQ heading (empty hides the FAQ)"
+msgstr ""
+
+#: inc/options.php:160
+msgid ""
+"Do you only work with WordPress? | No. I build on WordPress and WooCommerce, Shopify, Salla and custom stacks, and pick what fits your business.\n"
+"Can you improve an existing store? | Yes: speed, conversion, automation and AI tooling on the store you already run.\n"
+"How long does a project take? | Most stores and sites launch in two to six weeks, depending on scope."
+msgstr ""
+
+#: inc/options.php:160
+msgid "FAQ, one per line: Question | Answer (also sent to search engines as FAQ data)"
+msgstr ""
+
+#: inc/options.php:161
+msgid "Use the designed Contact page (off = the page content as written in the editor)"
+msgstr ""
+
+#: inc/options.php:162
+msgid "Slug of the page that gets this design (or pick the \"MX Contact\" template on any page)"
+msgstr ""
+
+#: inc/options.php:163
+msgid "Contact"
+msgstr ""
+
+#: inc/options.php:164
+msgid "Let's build something that *works harder*"
+msgstr ""
+
+#: inc/options.php:165
+msgid "Tell me about your store, site or the task that eats your time. I reply with practical next steps."
+msgstr ""
+
+#: inc/options.php:166
+msgid "Availability / hours (empty = panel response time)"
+msgstr ""
+
+#: inc/options.php:167
+msgid "Booking link, e.g. Calendly (empty hides it)"
+msgstr ""
+
+#: inc/options.php:168
+msgid "Booking button label"
+msgstr ""
+
+#: inc/options.php:169
+msgid "Map embed URL (https, e.g. a Google Maps embed link; empty = no map)"
+msgstr ""
+
+#: inc/options.php:170
+msgid "Show the built-in contact form"
+msgstr ""
+
+#: inc/options.php:171
+msgid "Send enquiries to (empty = site admin email)"
+msgstr ""
+
+#: inc/options.php:172
+msgid "New enquiry"
+msgstr ""
+
+#: inc/options.php:172
+msgid "Email subject prefix"
+msgstr ""
+
+#: inc/options.php:173
+msgid "Your name"
+msgstr ""
+
+#: inc/options.php:173
+msgid "Label: name"
+msgstr ""
+
+#: inc/options.php:174
+msgid "Label: email"
+msgstr ""
+
+#: inc/options.php:175
+msgid "Ask for a phone / WhatsApp number (optional field)"
+msgstr ""
+
+#: inc/options.php:176
+msgid "Phone or WhatsApp (optional)"
+msgstr ""
+
+#: inc/options.php:176
+msgid "Label: phone"
+msgstr ""
+
+#: inc/options.php:177
+msgid "Ask which service (list = your Services)"
+msgstr ""
+
+#: inc/options.php:178
+msgid "What do you need?"
+msgstr ""
+
+#: inc/options.php:178
+msgid "Label: service"
+msgstr ""
+
+#: inc/options.php:179
+msgid "Ask for a budget range"
+msgstr ""
+
+#: inc/options.php:180
+msgid "Label: budget"
+msgstr ""
+
+#: inc/options.php:181
+msgid ""
+"Under $1,000\n"
+"$1,000 - $3,000\n"
+"$3,000 - $8,000\n"
+"Over $8,000\n"
+"Not sure yet"
+msgstr ""
+
+#: inc/options.php:181
+msgid "Budget choices, one per line"
+msgstr ""
+
+#: inc/options.php:182
+msgid "Message"
+msgstr ""
+
+#: inc/options.php:182
+msgid "Label: message"
+msgstr ""
+
+#: inc/options.php:183
+msgid "Require a privacy consent tick"
+msgstr ""
+
+#: inc/options.php:184
+msgid "I agree that my details are used to answer this enquiry."
+msgstr ""
+
+#: inc/options.php:184
+msgid "Label: consent"
+msgstr ""
+
+#: inc/options.php:185
+msgid "Link the Privacy Policy page (Settings > Privacy) next to the consent"
+msgstr ""
+
+#: inc/options.php:186
+msgid "Send message"
+msgstr ""
+
+#: inc/options.php:186
+msgid "Label: submit button"
+msgstr ""
+
+#: inc/options.php:187
+msgid "Thank you, your message is on its way. I usually reply within one business day."
+msgstr ""
+
+#: inc/options.php:187
+msgid "Success message"
+msgstr ""
+
+#: inc/options.php:188
+msgid "Also save enquiries in the admin (Enquiries menu, private)"
+msgstr ""
+
+#: inc/options.php:189
+msgid "Spam check: minimum seconds before a form can be sent"
+msgstr ""
+
+#: inc/options.php:190
+msgid "Spam check: max messages per visitor per hour"
+msgstr ""
+
+#: inc/options.php:191
+msgid "Cloudflare Turnstile site key (optional; both keys turn it on)"
+msgstr ""
+
+#: inc/options.php:192
+msgid "Cloudflare Turnstile secret key"
+msgstr ""
+
+#: inc/options.php:193
+msgid "Default share image (fallback: portrait)"
+msgstr ""
+
+#: inc/options.php:224
+msgid "Editorial: split hero, soft corners, full motion"
+msgstr ""
+
+#: inc/options.php:228
+msgid "Bold: large centred hero, sharp corners, full motion"
+msgstr ""
+
+#: inc/options.php:232
+msgid "Soft: rounded cards, airy spacing, subtle motion"
+msgstr ""
+
+#: inc/options.php:236
+msgid "Compact: dense spacing, small radius, subtle motion"
+msgstr ""
+
+#: inc/options.php:353
+msgid "Muhamed Ahmed"
+msgstr ""
+
+#: inc/options.php:359
+msgid "Design"
+msgstr ""
+
+#: inc/options.php:360
+msgid "Hero"
+msgstr ""
+
+#: inc/options.php:361
+msgid "Work on devices"
+msgstr ""
+
+#: inc/options.php:363
+msgid "Stats (verify before showing)"
+msgstr ""
+
+#: inc/options.php:364
+msgid "Reviews"
+msgstr ""
+
+#: inc/options.php:365
+msgid "Blog"
+msgstr ""
+
+#: inc/options.php:366
+msgid "Contact (homepage section)"
+msgstr ""
+
+#: inc/options.php:367
+msgid "Footer"
+msgstr ""
+
+#: inc/options.php:368
+msgid "Services page"
+msgstr ""
+
+#: inc/options.php:369
+msgid "Contact page"
+msgstr ""
+
+#: inc/options.php:370
+msgid "Contact form"
+msgstr ""
+
+#: inc/options.php:372
+msgid "Client logos"
+msgstr ""
+
+#: inc/options.php:373
+msgid "SEO & sharing"
+msgstr ""
+
+#: inc/options.php:374
+msgid "Name & profiles (search + AI answers)"
+msgstr ""
+
+#: inc/options.php:394
+msgid "Visitors choose (show the toggle, start from the mode above)"
+msgstr ""
+
+#: inc/options.php:395
+msgid "Always use the mode above (hide the toggle)"
+msgstr ""
+
+#: inc/options.php:399
+msgid "As the look preset"
+msgstr ""
+
+#: inc/options.php:400
+msgid "Full (devices, reveals, marquee)"
+msgstr ""
+
+#: inc/options.php:401
+msgid "Subtle (fades only)"
+msgstr ""
+
+#: inc/options.php:402
+msgid "Off"
+msgstr ""
+
+#: inc/options.php:405
+msgid "Allow (recommended: lets AI answers cite you)"
+msgstr ""
+
+#: inc/options.php:406
+msgid "Block AI training/answer crawlers"
+msgstr ""
+
+#: inc/options.php:409
+msgid "Theme v1.8 design"
+msgstr ""
+
+#: inc/options.php:410
+msgid "Panel plugin (1.7 layout)"
+msgstr ""
+
+#: inc/options.php:413
+msgid "Reading direction (right-to-left on Arabic pages)"
+msgstr ""
+
+#: inc/options.php:414
+msgid "Opposite to reading direction"
+msgstr ""
+
+#: inc/options.php:417
+msgid "Right (left on Arabic pages)"
+msgstr ""
+
+#: inc/options.php:418
+msgid "Left (right on Arabic pages)"
+msgstr ""
+
+#: inc/options.php:421
+msgid "Priority"
+msgstr ""
+
+#: inc/options.php:422
+msgid "Random"
+msgstr ""
+
+#: inc/options.php:423
+msgid "Newest"
+msgstr ""
+
+#. Template Name of the theme
+msgid "MX Contact"
+msgstr ""
+
+#: page-contact.php:73
+msgid "Contact details"
+msgstr ""
+
+#: page-contact.php:85
+msgid "Location"
+msgstr ""
+
+#: page-contact.php:88
+msgid "Availability"
+msgstr ""
+
+#: page-contact.php:117
+msgid "Leave this empty"
+msgstr ""
+
+#: page-contact.php:142
+#: page-contact.php:153
+msgid "Choose…"
+msgstr ""
+
+#: page-contact.php:188
+msgid "Map"
+msgstr ""
+
+#. Template Name of the theme
+msgid "MX Services"
+msgstr ""
+
+#: single-post.php:52
+msgid "On this page"
+msgstr ""
+
+#: single-post.php:53
+msgid "Table of contents"
+msgstr ""
+
+#: single-post.php:82
+msgid "Related articles"
+msgstr ""
+
+#: template-parts/home/about.php:42
+#: template-parts/home/hero.php:38
+msgid "Skills"
+msgstr ""
+
+#: template-parts/home/clients.php:67
+msgid "Pause the logo animation"
+msgstr ""
+
+#: template-parts/home/hero.php:69
+msgid "Choose a portrait in Customize > Muhamed Ahmed > Hero, or Site Content > Portrait in the panel."
+msgstr ""
+
+#: template-parts/home/hero.php:87
+msgid "Scroll to selected work"
+msgstr ""
+
+#: template-parts/home/posts.php:34
+msgid "All articles"
+msgstr ""
+
+#: template-parts/home/stage.php:125
+msgid "Projects"
+msgstr ""
+
+#: template-parts/home/stats.php:16
+msgid "Key figures"
+msgstr ""
+
+#: template-parts/home/stats.php:24
+msgid "Unverified: editors only"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Ink"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Band"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Paper"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Ground"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Muted"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Accent lime"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Hairline"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Hairline inverse"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Accent glow"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Band deep"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Hero scrim"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Display"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Body"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Lead"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Section heading"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Display"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "1 Tight"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "2 Tight"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "3 Section"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "4 Band"
+msgstr ""
+
+#: theme.json
+msgctxt "Shadow name"
+msgid "Soft"
+msgstr ""

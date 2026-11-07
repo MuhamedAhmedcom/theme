@@ -1,0 +1,2640 @@
+msgid ""
+msgstr ""
+"Language: ar\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
+
+#: style.css
+msgid "Muhamed Ahmed Astra"
+msgstr ""
+
+#: style.css
+msgid "https://muhamedahmed.com"
+msgstr ""
+
+#: style.css
+msgid "An Astra child theme for Muhamed Ahmed. The homepage is built from"
+msgstr ""
+
+#: style.css
+msgid "ProWPSite"
+msgstr ""
+
+#: 404.php:15
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:16
+msgid "This page doesn’t exist or has moved."
+msgstr ""
+
+#: 404.php:19
+msgid "Back to home"
+msgstr ""
+
+#: behaviour.php:59
+#: inc/assets.php:121
+msgid "System"
+msgstr ""
+
+#: behaviour.php:60
+#: inc/assets.php:122
+#: inc/design-controls.php:349
+#: inc/options.php:589
+msgid "Light"
+msgstr ""
+
+#: behaviour.php:61
+#: inc/assets.php:123
+#: inc/design-controls.php:348
+#: inc/options.php:590
+msgid "Dark"
+msgstr ""
+
+#: behaviour.php:64
+msgid "Colour theme: %s"
+msgstr ""
+
+#: behaviour.php:65
+#: header-mx.php:47
+#: inc/assets.php:129
+msgid "Open menu"
+msgstr "افتح القائمة"
+
+#: behaviour.php:66
+#: inc/assets.php:130
+msgid "Close menu"
+msgstr "اقفل القائمة"
+
+#: footer-mx.php:77
+#: page-contact.php:95
+#: template-parts/home/about.php:57
+msgid "Profiles"
+msgstr "الحسابات"
+
+#: footer-mx.php:79
+#: footer-mx.php:132
+#: footer-mx.php:173
+#: footer-mx.php:176
+#: header-mx.php:36
+#: page-contact.php:82
+#: page-contact.php:92
+#: page-contact.php:97
+#: single-post.php:146
+#: template-parts/home/clients.php:46
+#: template-parts/home/contact.php:50
+msgid "(opens in a new tab)"
+msgstr "(يفتح في تبويب جديد)"
+
+#: footer-mx.php:132
+#: inc/options.php:570
+#: page-contact.php:82
+msgid "WhatsApp"
+msgstr "واتساب"
+
+#: footer-mx.php:161
+msgid "Back to top"
+msgstr ""
+
+#: functions.php:211
+msgid "Skip to content"
+msgstr "انتقل للمحتوى"
+
+#: header-mx.php:22
+msgid "Primary"
+msgstr ""
+
+#: header-mx.php:42
+msgid "Switch colour mode"
+msgstr ""
+
+#: home.php:18
+msgid "Search: %s"
+msgstr ""
+
+#: home.php:42
+msgid "Categories"
+msgstr ""
+
+#: home.php:43
+msgid "All"
+msgstr "الكل"
+
+#: home.php:50
+msgid "Search articles"
+msgstr ""
+
+#: home.php:51
+msgid "Search articles…"
+msgstr "ابحث في المقالات…"
+
+#: home.php:52
+#: inc/contact.php:129
+msgid "Search"
+msgstr "بحث"
+
+#: home.php:76
+msgid "Pagination"
+msgstr ""
+
+#: home.php:82
+msgid "Newer"
+msgstr ""
+
+#: home.php:83
+msgid "Older"
+msgstr ""
+
+#: home.php:95
+msgid "Load more"
+msgstr ""
+
+#: inc/assets.php:16
+msgid "v1.8 header"
+msgstr ""
+
+#: inc/assets.php:17
+msgid "Footer column 1"
+msgstr ""
+
+#: inc/assets.php:18
+msgid "Footer column 2"
+msgstr ""
+
+#: inc/assets.php:19
+msgid "Footer column 3"
+msgstr ""
+
+#: inc/assets.php:20
+msgid "Footer bottom line (privacy, terms)"
+msgstr ""
+
+#: inc/assets.php:119
+msgid "Colour mode: %s"
+msgstr ""
+
+#: inc/assets.php:126
+msgid "Switch to light mode"
+msgstr ""
+
+#: inc/assets.php:127
+msgid "Switch to dark mode"
+msgstr ""
+
+#: inc/assets.php:131
+#: inc/cf7.php:72
+msgid "Sending…"
+msgstr "جارٍ الإرسال…"
+
+#: inc/assets.php:132
+#: inc/cf7.php:78
+msgid "Something went wrong. Please try again or email me directly."
+msgstr "حدث خطأ غير متوقع. يُرجى المحاولة مرة أخرى أو مراسلتي مباشرة عبر البريد الإلكتروني."
+
+#: inc/assets.php:239
+msgid "Show submenu"
+msgstr ""
+
+#: inc/blog.php:33
+msgid "%s min read"
+msgstr "%s دقائق قراءة"
+
+#: inc/blog.php:226
+#: inc/entity.php:114
+msgid "Home"
+msgstr "الرئيسية"
+
+#: inc/blog.php:398
+msgid "No articles yet."
+msgstr "لا توجد مقالات بعد."
+
+#: inc/cf7.php:75
+msgid "Done"
+msgstr "حسنًا"
+
+#: inc/cf7.php:76
+msgid "Close"
+msgstr "إغلاق"
+
+#: inc/cf7.php:77
+msgid "Message not sent"
+msgstr "تعذّر إرسال الرسالة"
+
+#: inc/cf7.php:79
+#: inc/contact.php:373
+msgid "The message could not be sent. Please email me directly."
+msgstr "تعذّر إرسال الرسالة. يُرجى مراسلتي مباشرة عبر البريد الإلكتروني."
+
+#: inc/cf7.php:80
+msgid "We could not verify your message. Please wait a moment and try again."
+msgstr "تعذّر التحقق من رسالتك. يُرجى الانتظار لحظات ثم المحاولة مرة أخرى."
+
+#: inc/cf7.php:81
+#: inc/contact.php:338
+msgid "Please check the highlighted fields."
+msgstr "يُرجى مراجعة الحقول المحددة."
+
+#: inc/cf7.php:82
+msgid "Email me directly"
+msgstr "راسلني عبر البريد الإلكتروني"
+
+#: inc/cf7.php:84
+#: inc/contact.php:323
+msgid "Please enter your name."
+msgstr "يُرجى إدخال اسمك."
+
+#: inc/cf7.php:85
+#: inc/contact.php:326
+msgid "Please enter a valid email address."
+msgstr "يُرجى إدخال بريد إلكتروني صحيح."
+
+#: inc/cf7.php:86
+#: inc/contact.php:329
+msgid "Please enter a valid phone number or leave it empty."
+msgstr "يُرجى إدخال رقم هاتف صحيح أو ترك الحقل فارغًا."
+
+#: inc/cf7.php:87
+#: inc/contact.php:332
+msgid "Please write a short message (at least 10 characters)."
+msgstr "يُرجى كتابة رسالة قصيرة (10 أحرف على الأقل)."
+
+#: inc/cf7.php:88
+#: inc/cf7.php:147
+#: inc/contact.php:335
+msgid "Please confirm the consent box."
+msgstr "يُرجى تأكيد الموافقة."
+
+#: inc/cf7.php:293
+#: inc/contact.php:193
+msgid "Name"
+msgstr ""
+
+#: inc/cf7.php:294
+#: inc/contact.php:194
+#: inc/options.php:276
+#: page-contact.php:76
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: inc/cf7.php:295
+#: inc/contact.php:195
+#: page-contact.php:79
+msgid "Phone"
+msgstr ""
+
+#: inc/cf7.php:296
+msgid "Project type"
+msgstr "نوع المشروع"
+
+#: inc/cf7.php:297
+#: inc/contact.php:196
+msgid "Service"
+msgstr ""
+
+#: inc/cf7.php:307
+msgid "Reply to"
+msgstr ""
+
+#: inc/cf7.php:319
+#: inc/options.php:285
+msgid "Message"
+msgstr "رسالتك"
+
+#: inc/class-mahx-color-tools-control.php:24
+msgid "Reset to preset"
+msgstr ""
+
+#: inc/clients.php:17
+msgid "Clients"
+msgstr ""
+
+#: inc/clients.php:18
+#: inc/meta.php:54
+msgid "Client"
+msgstr ""
+
+#: inc/clients.php:19
+msgid "Add client"
+msgstr ""
+
+#: inc/clients.php:20
+msgid "Edit client"
+msgstr ""
+
+#: inc/clients.php:65
+#: inc/meta.php:57
+msgid "Logo"
+msgstr ""
+
+#: inc/clients.php:66
+msgid "Website"
+msgstr ""
+
+#: inc/clients.php:67
+#: inc/options.php:114
+msgid "Order"
+msgstr ""
+
+#: inc/clients.php:94
+#: inc/clients.php:131
+msgid "Add many clients"
+msgstr ""
+
+#: inc/clients.php:95
+msgid "Add many"
+msgstr ""
+
+#: inc/clients.php:134
+msgid "%d client added. Open each one to choose its logo."
+msgstr ""
+
+#: inc/clients.php:136
+msgid "One client per line: Name | https://website (the website is optional)."
+msgstr ""
+
+#: inc/clients.php:139
+msgid "Add clients"
+msgstr ""
+
+#: inc/clients.php:140
+msgid "Logos and screenshots can also be imported in one go with WP-CLI: wp mx import-clients clients.json"
+msgstr ""
+
+#: inc/contact.php:126
+msgid "Selected country"
+msgstr ""
+
+#: inc/contact.php:127
+msgid "No country selected"
+msgstr ""
+
+#: inc/contact.php:128
+msgid "List of countries"
+msgstr ""
+
+#: inc/contact.php:130
+msgid "No results found"
+msgstr ""
+
+#: inc/contact.php:131
+msgid "1 result found"
+msgstr ""
+
+#: inc/contact.php:132
+msgid "${count} results found"
+msgstr ""
+
+#: inc/contact.php:197
+#: inc/options.php:283
+msgid "Budget"
+msgstr ""
+
+#: inc/contact.php:198
+msgid "Page"
+msgstr ""
+
+#: inc/contact.php:199
+msgid "IP"
+msgstr ""
+
+#: inc/contact.php:200
+msgid "Referrer"
+msgstr ""
+
+#: inc/contact.php:226
+msgid "Enquiries"
+msgstr ""
+
+#: inc/contact.php:227
+msgid "Enquiry"
+msgstr ""
+
+#: inc/contact.php:276
+msgid "Your session expired. Please reload the page and send again."
+msgstr ""
+
+#: inc/contact.php:281
+msgid "Please wait a moment and send again."
+msgstr ""
+
+#: inc/contact.php:286
+msgid "Too many messages in a short time. Please try again later or email me directly."
+msgstr ""
+
+#: inc/contact.php:302
+msgid "The spam check failed. Please try again."
+msgstr ""
+
+#: inc/contact.php:319
+msgid "This form can only be sent from our own website. Please reload the page and send again."
+msgstr ""
+
+#: inc/data.php:483
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: inc/design-controls.php:22
+msgid "Accent (buttons, highlights)"
+msgstr ""
+
+#: inc/design-controls.php:23
+msgid "Accent on hover"
+msgstr ""
+
+#: inc/design-controls.php:24
+msgid "Background"
+msgstr ""
+
+#: inc/design-controls.php:25
+msgid "Surface (cards, panels)"
+msgstr ""
+
+#: inc/design-controls.php:26
+#: inc/options.php:165
+msgid "Text"
+msgstr ""
+
+#: inc/design-controls.php:27
+msgid "Muted text"
+msgstr ""
+
+#: inc/design-controls.php:28
+msgid "Borders and lines"
+msgstr ""
+
+#: inc/design-controls.php:29
+msgid "Links"
+msgstr ""
+
+#: inc/design-controls.php:300
+msgid "Colours (custom per mode)"
+msgstr ""
+
+#: inc/design-controls.php:303
+msgid "Leave a colour empty to use the preset. Dark and Light have separate colours; the preview follows the mode shown on the page (use the moon/sun button in the preview to check both). \"Reset to preset\" clears every custom colour. Contrast below 4.5:1 is flagged because it fails WCAG AA for normal text."
+msgstr ""
+
+#: inc/design-controls.php:307
+msgid "How to use: 1) Pick a preset below (one click, it previews instantly). 2) Choose the default colour mode for first-time visitors; visitors can still switch with the moon/sun button and their choice is remembered. 3) For your own colours open \"Colours (custom per mode)\". Click Publish to make it live; the page cache is cleared automatically."
+msgstr ""
+
+#: inc/design-controls.php:315
+msgid "Colour preset"
+msgstr ""
+
+#: inc/design-controls.php:367
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: inc/meta.php:23
+msgid "Project screenshots"
+msgstr ""
+
+#: inc/meta.php:26
+msgid "Desktop screenshot (PC)"
+msgstr ""
+
+#: inc/meta.php:26
+msgid "Shown in the MacBook and on project cards. Landscape, at least 1600 × 1000 px, top of the page. Saved as the featured image."
+msgstr ""
+
+#: inc/meta.php:27
+msgid "Desktop screenshot alt text"
+msgstr ""
+
+#: inc/meta.php:27
+msgid "Describe what the screenshot shows. Empty = the image alt text, then the project title."
+msgstr ""
+
+#: inc/meta.php:28
+msgid "Mobile screenshot (phone)"
+msgstr ""
+
+#: inc/meta.php:28
+msgid "Shown in the phone. Portrait, at least 780 × 1688 px. Empty = the desktop screenshot."
+msgstr ""
+
+#: inc/meta.php:29
+msgid "Mobile screenshot alt text"
+msgstr ""
+
+#: inc/meta.php:29
+msgid "Empty = the image alt text, then the project title."
+msgstr ""
+
+#: inc/meta.php:30
+msgid "Focal point (optional)"
+msgstr ""
+
+#: inc/meta.php:30
+msgid "Which part stays visible when a screenshot is cropped, as CSS object-position, e.g. \"50% 0%\" (top, default) or \"50% 50%\" (centre)."
+msgstr ""
+
+#: inc/meta.php:34
+msgid "Service details"
+msgstr ""
+
+#: inc/meta.php:37
+msgid "Icon (optional)"
+msgstr ""
+
+#: inc/meta.php:37
+msgid "Square SVG or PNG, at least 96 × 96 px. Not shown on the Services page (text-only editorial cards)."
+msgstr ""
+
+#: inc/meta.php:38
+msgid "What is included"
+msgstr ""
+
+#: inc/meta.php:38
+msgid "One point per line, shown as a checklist on the Services page."
+msgstr ""
+
+#: inc/meta.php:39
+msgid "Price from (optional)"
+msgstr ""
+
+#: inc/meta.php:39
+msgid "E.g. \"$900\". Empty hides the price."
+msgstr ""
+
+#: inc/meta.php:40
+msgid "Link (optional)"
+msgstr ""
+
+#: inc/meta.php:40
+msgid "A page with more detail. Empty = the contact page with this service pre-selected."
+msgstr ""
+
+#: inc/meta.php:41
+msgid "Who it is for"
+msgstr ""
+
+#: inc/meta.php:41
+msgid "Shown after “For” under the service, e.g. “brands running more than one store”."
+msgstr ""
+
+#: inc/meta.php:46
+msgid "Article extras: key takeaways and FAQ"
+msgstr ""
+
+#: inc/meta.php:49
+msgid "Key takeaways (TL;DR)"
+msgstr ""
+
+#: inc/meta.php:49
+msgid "One short takeaway per line. Shown in a summary box above the article, which also helps search engines and AI assistants quote the post. Empty hides the box."
+msgstr ""
+
+#: inc/meta.php:50
+#: inc/options.php:246
+#: inc/options.php:257
+msgid "FAQ"
+msgstr "الأسئلة الشائعة"
+
+#: inc/meta.php:50
+msgid "One question per line: Question | Answer. Shown as an accordion after the article and sent to search engines as FAQPage data (skipped when the Rank Math FAQ block is used in the post). Only add questions the article really answers."
+msgstr ""
+
+#: inc/meta.php:57
+msgid "SVG or transparent PNG, about 320 × 120 px. Alt text = client name."
+msgstr ""
+
+#: inc/meta.php:58
+msgid "Website URL"
+msgstr ""
+
+#: inc/meta.php:58
+msgid "Used when \"Link logos\" is on."
+msgstr ""
+
+#: inc/meta.php:61
+msgid "Logo tone"
+msgstr ""
+
+#: inc/meta.php:62
+msgid "Dark logos sit on a white pill, light logos on a dark pill, colour keeps its colours."
+msgstr ""
+
+#: inc/meta.php:64
+msgid "Dark logo (default)"
+msgstr ""
+
+#: inc/meta.php:65
+msgid "Light / white logo"
+msgstr ""
+
+#: inc/meta.php:66
+msgid "Colour logo (no greyscale)"
+msgstr ""
+
+#: inc/meta.php:67
+msgid "Colour logo on a dark plate (for pale logos)"
+msgstr ""
+
+#: inc/meta.php:70
+msgid "Logo size"
+msgstr ""
+
+#: inc/meta.php:70
+msgid "Visual size multiplier, 0.6 to 1.4 (empty = 1). Set automatically by the logo optimiser so small marks and wide wordmarks look equally big."
+msgstr ""
+
+#: inc/meta.php:73
+msgid "Visibility"
+msgstr ""
+
+#: inc/meta.php:74
+msgid "Hide without deleting. Order: Page attributes > Order."
+msgstr ""
+
+#: inc/meta.php:76
+msgid "Show in the strip"
+msgstr ""
+
+#: inc/meta.php:77
+msgid "Hide"
+msgstr ""
+
+#: inc/meta.php:80
+msgid "Desktop screenshot (optional)"
+msgstr ""
+
+#: inc/meta.php:80
+msgid "At least 1600 × 1000 px."
+msgstr ""
+
+#: inc/meta.php:81
+msgid "Mobile screenshot (optional)"
+msgstr ""
+
+#: inc/meta.php:81
+msgid "At least 780 × 1688 px."
+msgstr ""
+
+#: inc/meta.php:85
+msgid "Star rating"
+msgstr ""
+
+#: inc/meta.php:88
+msgid "Rating (1-5 stars)"
+msgstr ""
+
+#: inc/meta.php:88
+msgid "Use the rating the client actually gave. Empty shows 5 stars but is not sent to search engines."
+msgstr ""
+
+#: inc/meta.php:93
+msgid "Search & sharing"
+msgstr ""
+
+#: inc/meta.php:96
+msgid "SEO title"
+msgstr ""
+
+#: inc/meta.php:96
+msgid "Up to about 60 characters; lead with the search phrase. Empty = post title."
+msgstr ""
+
+#: inc/meta.php:97
+msgid "Meta description"
+msgstr ""
+
+#: inc/meta.php:97
+msgid "Up to about 155 characters. Empty = excerpt, then the site default."
+msgstr ""
+
+#: inc/meta.php:98
+msgid "Share image"
+msgstr ""
+
+#: inc/meta.php:98
+msgid "1200 × 630 px works everywhere. Empty = featured image, then the site default."
+msgstr ""
+
+#: inc/meta.php:180
+msgid "Choose a screenshot"
+msgstr ""
+
+#: inc/meta.php:181
+msgid "Use this image"
+msgstr ""
+
+#: inc/meta.php:207
+msgid "No image chosen: the fallback in the help text is used."
+msgstr ""
+
+#: inc/meta.php:218
+msgid "Replace image"
+msgstr ""
+
+#: inc/meta.php:218
+msgid "Choose / upload"
+msgstr ""
+
+#: inc/meta.php:219
+msgid "Remove"
+msgstr ""
+
+#: inc/meta.php:228
+msgid "Not set"
+msgstr ""
+
+#: inc/options.php:23
+msgid "Teal on navy (default: trust, calm, senior)"
+msgstr ""
+
+#: inc/options.php:24
+#: inc/options.php:44
+#: inc/options.php:48
+#: inc/options.php:52
+#: inc/options.php:56
+#: inc/options.php:60
+msgid "Work with me"
+msgstr "اعمل معي"
+
+#: inc/options.php:27
+msgid "Black + violet (modern, premium, AI)"
+msgstr ""
+
+#: inc/options.php:28
+#: inc/options.php:270
+msgid "Book a call"
+msgstr "احجز مكالمة"
+
+#: inc/options.php:31
+msgid "White + blue (corporate, highest trust)"
+msgstr ""
+
+#: inc/options.php:32
+msgid "Get a quote"
+msgstr "اطلب عرض سعر"
+
+#: inc/options.php:35
+msgid "Cream + orange (warm, human, freelance)"
+msgstr ""
+
+#: inc/options.php:36
+#: inc/options.php:149
+#: inc/options.php:163
+#: inc/options.php:230
+msgid "Start a project"
+msgstr "ابدأ مشروعك"
+
+#: inc/options.php:39
+msgid "Graphite + lime (hacker, terminal, bold)"
+msgstr ""
+
+#: inc/options.php:40
+#: inc/options.php:243
+#: inc/options.php:289
+msgid "Request a quote"
+msgstr "اطلب عرض سعر"
+
+#: inc/options.php:43
+msgid "Indigo (focused, product, SaaS)"
+msgstr ""
+
+#: inc/options.php:47
+msgid "Emerald (growth, fresh, eco)"
+msgstr ""
+
+#: inc/options.php:51
+msgid "Amber (energetic, warm, bold)"
+msgstr ""
+
+#: inc/options.php:55
+msgid "Rose (creative, friendly, lifestyle)"
+msgstr ""
+
+#: inc/options.php:59
+msgid "Slate mono (minimal, neutral, editorial)"
+msgstr ""
+
+#: inc/options.php:75
+msgid "Colour palette"
+msgstr ""
+
+#: inc/options.php:76
+msgid "Phone mockup frame colour"
+msgstr ""
+
+#: inc/options.php:77
+msgid "Show the Dynamic Island on the phone mockup"
+msgstr ""
+
+#: inc/options.php:78
+msgid "Header behaviour on scroll"
+msgstr ""
+
+#: inc/options.php:79
+msgid "Default colour mode for first-time visitors (returning visitors keep their last moon/sun choice)"
+msgstr ""
+
+#: inc/options.php:80
+msgid "Who picks the mode"
+msgstr ""
+
+#: inc/options.php:81
+msgid "Look preset (one switch for hero style, card radius, spacing and motion)"
+msgstr ""
+
+#: inc/options.php:82
+msgid "Hero text opacity at the end of its scroll-out effect, in % (85-100; 100 = never fades)"
+msgstr ""
+
+#: inc/options.php:83
+msgid "Starting opacity of sections before they reveal, in % (0-100; content is never left below this)"
+msgstr ""
+
+#: inc/options.php:84
+msgid "Motion (reduced-motion visitors always get none)"
+msgstr ""
+
+#: inc/options.php:85
+msgid "CTA label override (empty = palette default)"
+msgstr ""
+
+#: inc/options.php:86
+msgid "CTA link (empty = the Contact page with the form; #section = a homepage section; or any full URL)"
+msgstr ""
+
+#: inc/options.php:87
+msgid "Homepage renderer"
+msgstr ""
+
+#: inc/options.php:88
+msgid "Save new JPEG/PNG uploads as WebP"
+msgstr ""
+
+#: inc/options.php:89
+msgid "Availability badge (empty hides it)"
+msgstr ""
+
+#: inc/options.php:90
+msgid "E-commerce stores and websites that *sell*, load *fast* and save your team time."
+msgstr "تصميم وتطوير المواقع والمتاجر الإلكترونية لتنمية أعمالك وزيادة مبيعاتك"
+
+#: inc/options.php:90
+msgid "Headline (wrap words in *asterisks* to highlight)"
+msgstr ""
+
+#: inc/options.php:91
+msgid "I build WooCommerce stores and business websites, including for brands that run more than one shop or site, and add what pays back: automation, website speed optimization, AI tools and conversion rate optimization."
+msgstr "أبني متاجر WooCommerce ومواقع للشركات، بمتجر واحد أو بعدّة مواقع، وأركّز على ما يحقق عائدًا لاستثمارك: أتمتة العمليات، وتسريع المواقع، وأدوات الذكاء الاصطناعي، وتحسين معدل التحويل."
+
+#: inc/options.php:91
+msgid "Intro paragraph"
+msgstr ""
+
+#: inc/options.php:92
+msgid "View portfolio"
+msgstr "شاهد أعمالي"
+
+#: inc/options.php:92
+msgid "Secondary button label"
+msgstr ""
+
+#: inc/options.php:93
+msgid "Secondary button link"
+msgstr ""
+
+#: inc/options.php:94
+msgid "E-commerce stores\n"
+"WooCommerce\n"
+"Website speed optimization\n"
+"Automation\n"
+"AI tools\n"
+"Conversion rate optimization (CRO)"
+msgstr "متاجر إلكترونية\n"
+"WooCommerce\n"
+"تسريع المواقع\n"
+"أتمتة العمليات\n"
+"أدوات ذكاء اصطناعي\n"
+"تحسين معدل التحويل"
+
+#: inc/options.php:94
+msgid "Skill chips (one per line)"
+msgstr ""
+
+#: inc/options.php:95
+msgid "Portrait photo: upload at least 1200 × 1500 px (portrait, 4:5); smaller photos are shown smaller so they stay sharp"
+msgstr ""
+
+#: inc/options.php:96
+msgid "Portrait focal point (CSS object-position)"
+msgstr ""
+
+#: inc/options.php:97
+msgid "Portrait card: name (fallback: panel identity)"
+msgstr ""
+
+#: inc/options.php:98
+msgid "Portrait card: role (fallback: panel identity)"
+msgstr ""
+
+#: inc/options.php:99
+msgid "Portfolio: stores and websites I built"
+msgstr "أعمالي: متاجر ومواقع نفّذتها"
+
+#: inc/options.php:99
+#: inc/options.php:102
+#: inc/options.php:106
+#: inc/options.php:118
+#: inc/options.php:163
+#: inc/options.php:201
+#: inc/options.php:239
+#: inc/options.php:250
+#: inc/options.php:257
+#: inc/options.php:265
+msgid "Eyebrow"
+msgstr ""
+
+#: inc/options.php:100
+msgid "Projects shown on the devices"
+msgstr ""
+
+#: inc/options.php:101
+msgid "View project"
+msgstr "شوف المشروع"
+
+#: inc/options.php:101
+msgid "Project link label"
+msgstr ""
+
+#: inc/options.php:102
+#: inc/options.php:223
+#: inc/options.php:239
+#: inc/options.php:558
+msgid "Services"
+msgstr "الخدمات"
+
+#: inc/options.php:103
+msgid "Web design and e-commerce services that *add value*, not just pages"
+msgstr "خدمات تصميم مواقع ومتاجر *تضيف قيمة*، لا مجرد صفحات"
+
+#: inc/options.php:103
+#: inc/options.php:107
+#: inc/options.php:119
+#: inc/options.php:164
+msgid "Title"
+msgstr ""
+
+#: inc/options.php:104
+msgid "From a first online store to a group of sites: development, speed, automation and AI tools chosen for what they save or earn."
+msgstr "من أول متجر إلكتروني لحد مجموعة مواقع: تطوير، وسرعة، وأتمتة، وأدوات ذكاء اصطناعي بتتختار على حسب اللي بتوفّره أو بتكسبه."
+
+#: inc/options.php:104
+#: inc/options.php:241
+#: inc/options.php:259
+#: inc/options.php:267
+msgid "Intro"
+msgstr ""
+
+#: inc/options.php:105
+msgid "For"
+msgstr "مناسب لـ"
+
+#: inc/options.php:105
+msgid "Audience prefix"
+msgstr ""
+
+#: inc/options.php:106
+msgid "Client words"
+msgstr "آراء العملاء"
+
+#: inc/options.php:107
+msgid "What clients say"
+msgstr "العملاء بيقولوا إيه"
+
+#: inc/options.php:108
+msgid "Verified on {source}"
+msgstr "موثّق على {source}"
+
+#: inc/options.php:108
+msgid "Source link label under each review ({source} = site name taken from the review Source URL, e.g. Trustpilot; shown when the review has a source and link)"
+msgstr ""
+
+#: inc/options.php:109
+msgid "Show the rating summary under the title"
+msgstr ""
+
+#: inc/options.php:110
+msgid "4.6 on Trustpilot · 22 reviews"
+msgstr ""
+
+#: inc/options.php:110
+msgid "Rating summary 1 (empty hides it). Use only figures shown on the public profile."
+msgstr ""
+
+#: inc/options.php:111
+msgid "Rating summary 1 link"
+msgstr ""
+
+#: inc/options.php:112
+msgid "5.0 on Upwork · 38 reviews · 38 jobs · 202 hours"
+msgstr ""
+
+#: inc/options.php:112
+msgid "Rating summary 2 (empty hides it)"
+msgstr ""
+
+#: inc/options.php:113
+msgid "Rating summary 2 link"
+msgstr ""
+
+#: inc/options.php:115
+msgid "Review text: max lines before \"Read more\" (0 = show full text)"
+msgstr ""
+
+#: inc/options.php:116
+msgid "Read more"
+msgstr "اقرأ المزيد"
+
+#: inc/options.php:116
+msgid "\"Read more\" label"
+msgstr ""
+
+#: inc/options.php:117
+msgid "How many"
+msgstr ""
+
+#: inc/options.php:118
+#: inc/options.php:561
+msgid "Blog"
+msgstr "المدونة"
+
+#: inc/options.php:119
+msgid "Tips on e-commerce, website speed, SEO and automation"
+msgstr "مقالات عن المتاجر الإلكترونية وتسريع المواقع والسيو والأتمتة"
+
+#: inc/options.php:120
+msgid "Posts on the homepage (0 hides)"
+msgstr ""
+
+#: inc/options.php:121
+msgid "Table of contents on posts"
+msgstr ""
+
+#: inc/options.php:122
+msgid "Related posts carousel under posts"
+msgstr ""
+
+#: inc/options.php:123
+msgid "Related posts: how many (3-12)"
+msgstr ""
+
+#: inc/options.php:124
+msgid "Related posts heading (English posts)"
+msgstr ""
+
+#: inc/options.php:125
+msgid "Related posts heading (Arabic posts)"
+msgstr ""
+
+#: inc/options.php:126
+msgid "Related posts: show a short excerpt"
+msgstr ""
+
+#: inc/options.php:127
+msgid "Related posts: show reading time"
+msgstr ""
+
+#: inc/options.php:128
+msgid "Share buttons on posts (X, LinkedIn, Facebook, WhatsApp, copy link)"
+msgstr ""
+
+#: inc/options.php:129
+msgid "Breadcrumbs on posts"
+msgstr ""
+
+#: inc/options.php:130
+msgid "Post meta row (date, categories, reading time)"
+msgstr ""
+
+#: inc/options.php:131
+msgid "Show \"Updated\" date when a post was edited after publishing"
+msgstr ""
+
+#: inc/options.php:132
+msgid "Author box with profile links after posts"
+msgstr ""
+
+#: inc/options.php:133
+msgid "Author box photo (empty = hero portrait, then the site icon)"
+msgstr ""
+
+#: inc/options.php:134
+msgid "Author box role (English posts)"
+msgstr ""
+
+#: inc/options.php:135
+msgid "Author box role (Arabic posts)"
+msgstr ""
+
+#: inc/options.php:136
+msgid "Author box bio (English posts; %years% = years of experience)"
+msgstr ""
+
+#: inc/options.php:137
+msgid "Author box bio (Arabic posts; %years% = years of experience)"
+msgstr ""
+
+#: inc/options.php:138
+msgid "Author name link (empty = the About page, then the blog)"
+msgstr ""
+
+#: inc/options.php:139
+msgid "Author box: articles link label (English)"
+msgstr ""
+
+#: inc/options.php:140
+msgid "Author box: articles link label (Arabic)"
+msgstr ""
+
+#: inc/options.php:141
+msgid "Author box: contact link label (English)"
+msgstr ""
+
+#: inc/options.php:142
+msgid "Author box: contact link label (Arabic)"
+msgstr ""
+
+#: inc/options.php:143
+msgid "Key takeaways"
+msgstr "أهم النقاط"
+
+#: inc/options.php:143
+msgid "Takeaways box heading"
+msgstr ""
+
+#: inc/options.php:144
+msgid "Frequently asked questions"
+msgstr "الأسئلة الشائعة"
+
+#: inc/options.php:144
+msgid "Post FAQ heading"
+msgstr ""
+
+#: inc/options.php:145
+msgid "Call-to-action / newsletter block on the blog and under posts"
+msgstr ""
+
+#: inc/options.php:146
+msgid "Want a faster store that *sells* more?"
+msgstr "تريد متجرًا أسرع *يبيع* أكثر؟"
+
+#: inc/options.php:146
+msgid "Block title (*asterisks* highlight)"
+msgstr ""
+
+#: inc/options.php:147
+msgid "Get practical notes on online stores, speed and automation, or tell me about your project."
+msgstr "تابع نصائح عملية عن المتاجر الإلكترونية والسرعة والأتمتة، أو حدّثني عن مشروعك."
+
+#: inc/options.php:147
+msgid "Block text"
+msgstr ""
+
+#: inc/options.php:148
+msgid "Newsletter form shortcode (optional, e.g. from your email plugin; empty shows the button)"
+msgstr ""
+
+#: inc/options.php:149
+msgid "Button label (links to the CTA link in Design)"
+msgstr ""
+
+#: inc/options.php:150
+msgid "Also publish /llms-full.txt (llms.txt plus the full text of recent posts)"
+msgstr ""
+
+#: inc/options.php:151
+msgid "Posts included in /llms-full.txt"
+msgstr ""
+
+#: inc/options.php:152
+msgid "Reading speed (words per minute)"
+msgstr ""
+
+#: inc/options.php:153
+msgid "Single post layout preset"
+msgstr ""
+
+#: inc/options.php:154
+msgid "Blog archive layout preset"
+msgstr ""
+
+#: inc/options.php:155
+msgid "Archive pagination"
+msgstr ""
+
+#: inc/options.php:156
+msgid "Reading progress bar on posts"
+msgstr ""
+
+#: inc/options.php:157
+msgid "Featured image below hero (Mixed preset)"
+msgstr ""
+
+#: inc/options.php:158
+msgid "Category pills on blog archive"
+msgstr ""
+
+#: inc/options.php:159
+msgid "Posts per archive page (0 = WordPress Reading setting)"
+msgstr ""
+
+#: inc/options.php:160
+msgid "Empty archive message (English)"
+msgstr ""
+
+#: inc/options.php:161
+msgid "Empty archive message (Arabic)"
+msgstr ""
+
+#: inc/options.php:162
+msgid "Show comments template under posts when open"
+msgstr ""
+
+#: inc/options.php:164
+msgid "Need a new online store or website?"
+msgstr "تحتاج متجرًا إلكترونيًا أو موقعًا *يحقق نتائج*؟"
+
+#: inc/options.php:165
+msgid "Share what you sell and where things slow down, and we can map out a practical plan."
+msgstr "قولّي بتبيع إيه وفين الحاجة بتقف، ونرسم خطة عملية."
+
+#: inc/options.php:166
+msgid "Public email (fallback: panel identity)"
+msgstr ""
+
+#: inc/options.php:167
+msgid "Show email on site (footer, contact, schema, llms.txt)"
+msgstr ""
+
+#: inc/options.php:168
+msgid "Form shortcode (e.g. Fluent Forms)"
+msgstr ""
+
+#: inc/options.php:169
+msgid "Footer note"
+msgstr ""
+
+#: inc/options.php:170
+msgid "I verified the panel stats; show them publicly (until then only editors see them, flagged)"
+msgstr ""
+
+#: inc/options.php:171
+msgid "%name% | WooCommerce & WordPress Developer in Egypt"
+msgstr "%name% | مطور مواقع ووردبريس وتصميم متجر ووكومرس في مصر"
+
+#: inc/options.php:171
+msgid "Homepage title; %name% = your name (used when no SEO plugin is active)"
+msgstr "عنوان الرئيسية؛ %name% = اسمك (بيُستخدم لو مفيش إضافة سيو)"
+
+#: inc/options.php:172
+msgid "WooCommerce developer in Egypt building professional online stores and business websites: e-commerce development, website speed optimisation, automation and AI tooling."
+msgstr "مطور مواقع ووردبريس في مصر: تصميم متجر الكتروني احترافي، تصميم متجر ووكومرس، تسريع موقع ووردبريس، وتصميم متجر الكتروني بالذكاء الاصطناعي."
+
+#: inc/options.php:172
+msgid "Homepage / default meta description"
+msgstr ""
+
+#: inc/options.php:173
+msgid "Blog: e-commerce, WooCommerce, SEO and website speed"
+msgstr "المدونة: المتاجر الإلكترونية وووكومرس والسيو وتسريع المواقع"
+
+#: inc/options.php:173
+msgid "Blog index title"
+msgstr ""
+
+#: inc/options.php:174
+msgid "X / Twitter handle (e.g. @name)"
+msgstr ""
+
+#: inc/options.php:175
+msgid "Your name as search engines should show it (fallback: panel identity)"
+msgstr "اسمك زي ما محركات البحث المفروض تعرضه (الافتراضي: هوية اللوحة)"
+
+#: inc/options.php:176
+msgid "Other spellings of your name, one per line (e.g. the Arabic spelling)"
+msgstr "كتابات تانية لاسمك، كل واحدة في سطر (مثلاً بالعربي)"
+
+#: inc/options.php:177
+msgid "Skills for knowsAbout, one per line (fallback: hero chips)"
+msgstr "المهارات، كل مهارة في سطر (الافتراضي: كلمات الهيرو)"
+
+#: inc/options.php:178
+msgid "Business / studio name for ProfessionalService (fallback: site title)"
+msgstr "اسم النشاط التجاري (الافتراضي: اسم الموقع)"
+
+#: inc/options.php:179
+msgid "Area served (e.g. Egypt, Worldwide); empty omits it"
+msgstr "نطاق الخدمة (مثلاً مصر، العالم)؛ فاضي = مش هيظهر"
+
+#: inc/options.php:180
+msgid "Show the About section on the homepage"
+msgstr "إظهار قسم \"عنّي\" في الصفحة الرئيسية"
+
+#: inc/options.php:181
+msgid "About %name%"
+msgstr "عن %name%"
+
+#: inc/options.php:181
+msgid "About section title; %name% = your name"
+msgstr "عنوان قسم \"عنّي\"؛ %name% = اسمك"
+
+#: inc/options.php:182
+msgid "Years of experience (fills %years% in the author bio and the Person schema description)"
+msgstr ""
+
+#: inc/options.php:183
+msgid "About text (fallback: panel identity bio)"
+msgstr "نص \"عنّي\" (الافتراضي: نبذة اللوحة)"
+
+#: inc/options.php:184
+msgid "Summary at the top of /llms.txt (fallback: homepage description)"
+msgstr "ملخص أول ملف /llms.txt (الافتراضي: وصف الرئيسية)"
+
+#: inc/options.php:185
+msgid "AI crawlers (GPTBot, ClaudeBot, Google-Extended, PerplexityBot…) in robots.txt"
+msgstr ""
+
+#: inc/options.php:186
+msgid "WordPress & WooCommerce developer"
+msgstr "مطور مواقع ووردبريس وووكومرس"
+
+#: inc/options.php:186
+msgid "Person job title (schema)"
+msgstr ""
+
+#: inc/options.php:187
+msgid "Profile URLs (GitHub, LinkedIn, X, Behance…), one per line: used for sameAs and rel=me links"
+msgstr ""
+
+#: inc/options.php:188
+msgid "Logo for light mode (SVG or transparent PNG at 2x, e.g. 600 × 192 px; empty = Site Identity logo, then the site title as a wordmark)"
+msgstr ""
+
+#: inc/options.php:189
+msgid "Logo for dark mode (light-coloured version; empty = light-mode logo)"
+msgstr ""
+
+#: inc/options.php:190
+msgid "Logo height on desktop (px)"
+msgstr ""
+
+#: inc/options.php:191
+#: inc/options.php:211
+msgid "Logo height on phones (px)"
+msgstr ""
+
+#: inc/options.php:192
+msgid "Show WhatsApp buttons (only when a number is set here or in the panel identity)"
+msgstr ""
+
+#: inc/options.php:193
+msgid "WhatsApp number in international format, digits only, e.g. 201001234567 (empty = panel identity)"
+msgstr ""
+
+#: inc/options.php:194
+msgid "Hi, I would like to talk about a project."
+msgstr "مرحبًا، أريد مناقشة مشروع."
+
+#: inc/options.php:194
+msgid "Prefilled message"
+msgstr ""
+
+#: inc/options.php:195
+#: page-contact.php:82
+msgid "Chat on WhatsApp"
+msgstr "تواصل عبر واتساب"
+
+#: inc/options.php:195
+msgid "Button label"
+msgstr ""
+
+#: inc/options.php:196
+msgid "Floating button position"
+msgstr ""
+
+#: inc/options.php:197
+msgid "Floating button on desktop"
+msgstr ""
+
+#: inc/options.php:198
+msgid "WhatsApp on phones (floating button and in the menu)"
+msgstr ""
+
+#: inc/options.php:199
+msgid "Phones: use a sticky bottom bar (WhatsApp + main CTA) instead of the floating button"
+msgstr ""
+
+#: inc/options.php:200
+msgid "Show the client logos strip (Clients menu in the admin; hidden while no client has a logo)"
+msgstr ""
+
+#: inc/options.php:201
+msgid "Trusted by"
+msgstr ""
+
+#: inc/options.php:202
+msgid "Brands that trusted me with their stores and sites"
+msgstr ""
+
+#: inc/options.php:202
+msgid "Title (empty hides it)"
+msgstr ""
+
+#: inc/options.php:203
+msgid "Intro text (empty hides it)"
+msgstr ""
+
+#: inc/options.php:204
+msgid "Seconds for one full loop (higher = slower)"
+msgstr ""
+
+#: inc/options.php:205
+msgid "Scroll direction"
+msgstr ""
+
+#: inc/options.php:206
+msgid "Pause on hover and keyboard focus"
+msgstr ""
+
+#: inc/options.php:207
+msgid "Greyscale logos until hover"
+msgstr ""
+
+#: inc/options.php:208
+msgid "Logo height (px)"
+msgstr ""
+
+#: inc/options.php:209
+msgid "Logo opacity in % (60-100)"
+msgstr ""
+
+#: inc/options.php:210
+msgid "White logo plates in dark mode too (best legibility for mixed logos; off = plates follow the palette)"
+msgstr ""
+
+#: inc/options.php:212
+msgid "Link logos to the client websites"
+msgstr ""
+
+#: inc/options.php:213
+msgid "Link rel attribute"
+msgstr ""
+
+#: inc/options.php:214
+msgid "Dark mode with only one logo image (no dark-mode logo set)"
+msgstr ""
+
+#: inc/options.php:215
+msgid "Main button label (links to the CTA link in Design; empty = palette CTA label)"
+msgstr ""
+
+#: inc/options.php:216
+msgid "Email me"
+msgstr "راسلني بالبريد"
+
+#: inc/options.php:216
+msgid "Secondary email button label (empty = show the address)"
+msgstr ""
+
+#: inc/options.php:217
+msgid "Also show the CTA band on the home page (it repeats the contact section there)"
+msgstr ""
+
+#: inc/options.php:218
+msgid "Speed: serve the web fonts from this site (no Google Fonts request)"
+msgstr ""
+
+#: inc/options.php:219
+msgid "Show the brand and tagline"
+msgstr ""
+
+#: inc/options.php:220
+msgid "Online stores, websites and automation that save time and grow sales, on WordPress, Shopify, Salla and custom stacks."
+msgstr "متاجر ومواقع وأتمتة توفّر الوقت وترفع المبيعات — على WordPress وShopify وسلة وحلول مخصّصة."
+
+#: inc/options.php:220
+msgid "Footer tagline (empty = hero intro)"
+msgstr ""
+
+#: inc/options.php:221
+msgid "Show the link columns (Appearance > Menus: \"Footer column 1/2/3\"; empty columns fall back to pages, services and latest posts)"
+msgstr ""
+
+#: inc/options.php:222
+msgid "Quick links"
+msgstr "روابط سريعة"
+
+#: inc/options.php:222
+msgid "Column 1 heading"
+msgstr ""
+
+#: inc/options.php:223
+msgid "Column 2 heading"
+msgstr ""
+
+#: inc/options.php:224
+msgid "Latest articles"
+msgstr "أحدث المقالات"
+
+#: inc/options.php:224
+msgid "Column 3 heading"
+msgstr ""
+
+#: inc/options.php:225
+msgid "Show the contact block (email, phone, WhatsApp, location from the panel identity)"
+msgstr ""
+
+#: inc/options.php:226
+#: inc/options.php:265
+msgid "Contact"
+msgstr "تواصل معي"
+
+#: inc/options.php:226
+msgid "Contact block heading"
+msgstr ""
+
+#: inc/options.php:227
+msgid "Show social profiles (Name & profiles > Profile URLs)"
+msgstr ""
+
+#: inc/options.php:228
+msgid "Show the call-to-action band"
+msgstr ""
+
+#: inc/options.php:229
+msgid "Planning a store or website?"
+msgstr "تفكر في إنشاء متجر أو موقع؟"
+
+#: inc/options.php:229
+msgid "CTA band title"
+msgstr ""
+
+#: inc/options.php:230
+msgid "CTA button label (links to the CTA link in Design)"
+msgstr ""
+
+#: inc/options.php:231
+msgid "Show the back-to-top button"
+msgstr ""
+
+#: inc/options.php:232
+msgid "Copyright line (empty = automatic: (c) year and your name). {year} is replaced with the current year"
+msgstr ""
+
+#: inc/options.php:233
+msgid "Show the legal links (Appearance > Menus: \"Footer bottom line\")"
+msgstr ""
+
+#: inc/options.php:234
+msgid "Style the scrollbars in the site colours (both modes, every preset)"
+msgstr ""
+
+#: inc/options.php:235
+msgid "Browser bar colour in dark mode, hex like #0B1220 (empty = automatic from the preset background)"
+msgstr ""
+
+#: inc/options.php:236
+msgid "Browser bar colour in light mode, hex (empty = automatic from the preset background)"
+msgstr ""
+
+#: inc/options.php:237
+msgid "Use the designed Services page (off = the page content as written in the editor)"
+msgstr ""
+
+#: inc/options.php:238
+msgid "Slug of the page that gets this design (or pick the \"MX Services\" template on any page)"
+msgstr ""
+
+#: inc/options.php:240
+msgid "Website design, e-commerce development & SEO services that *sell*"
+msgstr "خدمات تصميم المواقع وإنشاء المتاجر الإلكترونية والسيو *لزيادة مبيعاتك*"
+
+#: inc/options.php:240
+#: inc/options.php:251
+#: inc/options.php:258
+#: inc/options.php:266
+msgid "Title (*asterisks* highlight)"
+msgstr ""
+
+#: inc/options.php:241
+msgid "Stores and websites on WordPress, WooCommerce, Shopify, Salla and custom stacks, plus the automation and AI tooling that saves your team hours every week."
+msgstr "متاجر ومواقع على WordPress وWooCommerce وShopify وسلة وحلول مخصّصة، مع أتمتة وأدوات ذكاء اصطناعي تختصر ساعات من عمل فريقك كل أسبوع."
+
+#: inc/options.php:242
+msgid "From"
+msgstr "ابتداءً من"
+
+#: inc/options.php:242
+msgid "Price prefix (service edit screen > Price from)"
+msgstr ""
+
+#: inc/options.php:243
+msgid "Service link label"
+msgstr ""
+
+#: inc/options.php:244
+msgid "Our process"
+msgstr "مراحل العمل"
+
+#: inc/options.php:244
+msgid "Process heading (empty hides the process)"
+msgstr ""
+
+#: inc/options.php:245
+msgid "Discovery | We map what you sell, where time is lost and what success looks like.\n"
+"Plan | A clear scope, platform choice, timeline and fixed price.\n"
+"Development | Weekly previews on a staging site you can click through.\n"
+"Launch & growth | Go live, measure, then automate and optimise."
+msgstr "الاستكشاف | نحدّد ما تبيعه، وأين يضيع الوقت، وكيف يبدو النجاح بالنسبة لك.\n"
+"التخطيط | نطاق عمل واضح، واختيار المنصة، وجدول زمني، وسعر ثابت.\n"
+"التنفيذ والبرمجة | معاينات أسبوعية على نسخة تجريبية تتصفّحها بنفسك.\n"
+"الإطلاق والنمو | نطلق الموقع، نقيس النتائج، ثم نؤتمت ونحسّن."
+
+#: inc/options.php:245
+msgid "Process steps, one per line: Title | text"
+msgstr ""
+
+#: inc/options.php:246
+msgid "FAQ heading (empty hides the FAQ)"
+msgstr ""
+
+#: inc/options.php:247
+msgid "Do you only work with WordPress? | No. I build on WordPress and WooCommerce, Shopify, Salla and custom stacks, and pick what fits your business.\n"
+"Can you improve an existing store? | Yes: speed, conversion, automation and AI tooling on the store you already run.\n"
+"How long does a project take? | Most stores and sites launch in two to six weeks, depending on scope."
+msgstr "هل تعمل على WordPress فقط؟ | لا. أعمل على WordPress وWooCommerce وShopify وسلة والمنصات المخصّصة، وأختار ما يناسب نشاطك.\n"
+"هل يمكنك تطوير متجر قائم؟ | نعم: سرعة وتحويل وأتمتة وأدوات ذكاء اصطناعي على متجرك الحالي.\n"
+"كم يستغرق المشروع؟ | معظم المتاجر والمواقع تنطلق خلال أسبوعين إلى ستة أسابيع حسب حجم العمل."
+
+#: inc/options.php:247
+msgid "FAQ, one per line: Question | Answer (also sent to search engines as FAQ data)"
+msgstr ""
+
+#: inc/options.php:248
+msgid "Use the designed About page (off = the page content as written in the editor)"
+msgstr ""
+
+#: inc/options.php:249
+msgid "Slug of the page that gets this design (or pick the \"MX About\" template)"
+msgstr ""
+
+#: inc/options.php:250
+msgid "About"
+msgstr "من أنا"
+
+#: inc/options.php:251
+msgid "I build stores and sites that *sell* and tools that *save time*"
+msgstr ""
+
+#: inc/options.php:252
+msgid "Intro (empty = the About text from the home page / panel bio)"
+msgstr ""
+
+#: inc/options.php:253
+msgid "Also show the page editor content (turn on once the old demo text is replaced)"
+msgstr ""
+
+#: inc/options.php:254
+msgid "Developer portrait (empty hides the photo). Upload at least 1200 × 1500 px (portrait, 4:5)."
+msgstr ""
+
+#: inc/options.php:255
+msgid "Use the designed FAQ page"
+msgstr ""
+
+#: inc/options.php:256
+msgid "Slug of the page that gets this design (or pick the \"MX FAQ\" template)"
+msgstr ""
+
+#: inc/options.php:258
+msgid "Questions clients *ask* before we start"
+msgstr "أسئلة *يطرحها* العملاء قبل أن نبدأ"
+
+#: inc/options.php:259
+msgid "Straight answers about platforms, timelines, pricing and support. Anything else, just ask."
+msgstr "إجابات مباشرة عن المنصات والمدد والأسعار والدعم. وأي سؤال آخر، اسألني."
+
+#: inc/options.php:260
+msgid "Do you only work with WordPress? | No. I build on WordPress and WooCommerce, Shopify, Salla and custom stacks, and pick what fits your business.\n"
+"Can you improve an existing store? | Yes: speed, conversion, automation and AI tooling on the store you already run.\n"
+"How long does a project take? | Most stores and sites launch in two to six weeks, depending on scope.\n"
+"How is pricing set? | A fixed price per agreed scope, split into milestones, so there are no surprises.\n"
+"Do you offer support after launch? | Yes: monthly care plans for updates, backups, speed and small changes, or help on demand.\n"
+"Can you work with my existing team or agency? | Yes. I can take a clear part of the project and work inside your tools and process."
+msgstr "هل تعمل على WordPress فقط؟ | لا. أعمل على WordPress وWooCommerce وShopify وسلة والمنصات المخصّصة، وأختار ما يناسب نشاطك.\n"
+"هل يمكنك تطوير متجر قائم؟ | نعم: سرعة وتحويل وأتمتة وأدوات ذكاء اصطناعي على متجرك الحالي.\n"
+"كم يستغرق المشروع؟ | معظم المتاجر والمواقع تنطلق خلال أسبوعين إلى ستة أسابيع حسب حجم العمل.\n"
+"كيف يُحدَّد السعر؟ | سعر ثابت لنطاق عمل متفق عليه، مقسّم على مراحل، بلا مفاجآت.\n"
+"هل تقدّم دعمًا بعد الإطلاق؟ | نعم: باقات رعاية شهرية للتحديثات والنسخ الاحتياطي والسرعة والتعديلات الصغيرة، أو دعم عند الطلب.\n"
+"هل يمكنك العمل مع فريقي أو وكالتي الحالية؟ | نعم. أتولّى جزءًا واضحًا من المشروع وأعمل بأدواتكم وطريقة عملكم."
+
+#: inc/options.php:260
+msgid "Questions, one per line: Question | Answer (also sent to search engines as FAQ data)"
+msgstr ""
+
+#: inc/options.php:261
+msgid "Show every other page (privacy, legal, etc.) in the site design instead of the old Astra layout"
+msgstr ""
+
+#: inc/options.php:262
+msgid "This page is being updated. Meanwhile, tell me what you need and I will reply within one working day."
+msgstr "هذه الصفحة قيد التحديث. في الأثناء، أخبرني بما تحتاجه وسأرد خلال يوم عمل واحد."
+
+#: inc/options.php:262
+msgid "Text shown when a page has no usable content (e.g. a shop page while no shop plugin is active)"
+msgstr ""
+
+#: inc/options.php:263
+msgid "Use the designed Contact page (off = the page content as written in the editor)"
+msgstr ""
+
+#: inc/options.php:264
+msgid "Slug of the page that gets this design (or pick the \"MX Contact\" template on any page)"
+msgstr ""
+
+#: inc/options.php:266
+msgid "Tell me about your project"
+msgstr "حدّثني عن *مشروعك*"
+
+#: inc/options.php:267
+msgid "Tell me about your store, website or the task that eats your time. I reply within one business day with clear next steps and a quote."
+msgstr "أخبرني عن متجرك أو موقعك أو المهمة التي تستهلك وقتك، وسأرد خلال يوم عمل بخطوات واضحة وعرض سعر."
+
+#: inc/options.php:268
+msgid "Availability / hours (empty = panel response time)"
+msgstr ""
+
+#: inc/options.php:269
+msgid "Booking link, e.g. Calendly (empty hides it)"
+msgstr ""
+
+#: inc/options.php:270
+msgid "Booking button label"
+msgstr ""
+
+#: inc/options.php:271
+msgid "Map embed URL (https, e.g. a Google Maps embed link; empty = no map)"
+msgstr ""
+
+#: inc/options.php:272
+msgid "Show the built-in contact form"
+msgstr ""
+
+#: inc/options.php:273
+msgid "Send enquiries to (empty = site admin email)"
+msgstr ""
+
+#: inc/options.php:274
+msgid "New enquiry"
+msgstr ""
+
+#: inc/options.php:274
+msgid "Email subject prefix"
+msgstr ""
+
+#: inc/options.php:275
+msgid "Your name"
+msgstr "اسمك"
+
+#: inc/options.php:275
+msgid "Label: name"
+msgstr ""
+
+#: inc/options.php:276
+msgid "Label: email"
+msgstr ""
+
+#: inc/options.php:277
+msgid "Ask for a phone / WhatsApp number (optional field)"
+msgstr ""
+
+#: inc/options.php:278
+msgid "Phone or WhatsApp (optional)"
+msgstr "الهاتف أو واتساب (اختياري)"
+
+#: inc/options.php:278
+msgid "Label: phone"
+msgstr ""
+
+#: inc/options.php:279
+msgid "Detect the phone country from the visitor IP when available (no country is forced otherwise)"
+msgstr ""
+
+#: inc/options.php:280
+msgid "Ask which service (list = your Services)"
+msgstr ""
+
+#: inc/options.php:281
+msgid "What do you need?"
+msgstr "ماذا تحتاج؟"
+
+#: inc/options.php:281
+msgid "Label: service"
+msgstr ""
+
+#: inc/options.php:282
+msgid "Ask for a budget range"
+msgstr ""
+
+#: inc/options.php:283
+msgid "Label: budget"
+msgstr ""
+
+#: inc/options.php:284
+msgid "Under $1,000\n"
+"$1,000 - $3,000\n"
+"$3,000 - $8,000\n"
+"Over $8,000\n"
+"Not sure yet"
+msgstr ""
+
+#: inc/options.php:284
+msgid "Budget choices, one per line"
+msgstr ""
+
+#: inc/options.php:285
+msgid "Label: message"
+msgstr ""
+
+#: inc/options.php:286
+msgid "Require a privacy consent tick"
+msgstr ""
+
+#: inc/options.php:287
+msgid "I agree that my details are used to answer this enquiry."
+msgstr "أوافق على استخدام بياناتي للرد على هذا الاستفسار."
+
+#: inc/options.php:287
+msgid "Label: consent"
+msgstr ""
+
+#: inc/options.php:288
+msgid "Link the Privacy Policy page (Settings > Privacy) next to the consent"
+msgstr ""
+
+#: inc/options.php:289
+msgid "Label: submit button"
+msgstr ""
+
+#: inc/options.php:290
+msgid "Thank you, your message is on its way. I usually reply within one business day."
+msgstr "شكرًا لك، رسالتك في الطريق. عادةً أرد خلال يوم عمل واحد."
+
+#: inc/options.php:290
+msgid "Success message"
+msgstr ""
+
+#: inc/options.php:291
+msgid "Message sent"
+msgstr "تم إرسال رسالتك"
+
+#: inc/options.php:291
+msgid "Success popup title"
+msgstr ""
+
+#: inc/options.php:292
+msgid "Also save enquiries in the admin (Enquiries menu, private)"
+msgstr ""
+
+#: inc/options.php:293
+msgid "Spam check: minimum seconds before a form can be sent"
+msgstr ""
+
+#: inc/options.php:294
+msgid "Spam check: max messages per visitor per hour"
+msgstr ""
+
+#: inc/options.php:295
+msgid "Cloudflare Turnstile site key (optional; both keys turn it on)"
+msgstr ""
+
+#: inc/options.php:296
+msgid "Cloudflare Turnstile secret key"
+msgstr ""
+
+#: inc/options.php:297
+msgid "Default share image (fallback: portrait)"
+msgstr ""
+
+#: inc/options.php:298
+msgid "Watermark REST (wm-probe / wm-apply / wm-restore) for admins"
+msgstr ""
+
+#: inc/options.php:299
+msgid "Watermark text stamped on images"
+msgstr ""
+
+#: inc/options.php:300
+msgid "Keep WPML hreflang tags in the document head"
+msgstr ""
+
+#: inc/options.php:301
+msgid "Hide the X-Powered-By header"
+msgstr ""
+
+#: inc/options.php:302
+msgid "Add name variants (alternateName) to Person and WebSite schema"
+msgstr ""
+
+#: inc/options.php:303
+msgid "Translate chrome strings and menus on the Arabic site"
+msgstr ""
+
+#: inc/options.php:304
+msgid "Arabic chrome map, one per line: English | Arabic (empty keeps the stored map)"
+msgstr ""
+
+#: inc/options.php:305
+msgid "Public project pages (off = cards on the home stage only, no /work URLs)"
+msgstr ""
+
+#: inc/options.php:306
+msgid "Show the “View project” link on home cards"
+msgstr ""
+
+#: inc/options.php:307
+msgid "Hide Upwork profile links (keep the review text)"
+msgstr ""
+
+#: inc/options.php:308
+msgid "Interleave reviews so the same source is not clustered"
+msgstr ""
+
+#: inc/options.php:409
+msgid "Editorial: split hero, soft corners, full motion"
+msgstr ""
+
+#: inc/options.php:413
+msgid "Bold: large centred hero, sharp corners, full motion"
+msgstr ""
+
+#: inc/options.php:417
+msgid "Soft: rounded cards, airy spacing, subtle motion"
+msgstr ""
+
+#: inc/options.php:421
+msgid "Compact: dense spacing, small radius, subtle motion"
+msgstr ""
+
+#: inc/options.php:549
+msgid "Muhamed Ahmed"
+msgstr "محمد أحمد"
+
+#: inc/options.php:555
+msgid "Design"
+msgstr "التصميم"
+
+#: inc/options.php:556
+msgid "Hero"
+msgstr ""
+
+#: inc/options.php:557
+msgid "Work on devices"
+msgstr ""
+
+#: inc/options.php:559
+msgid "Stats (verify before showing)"
+msgstr ""
+
+#: inc/options.php:560
+#: inc/options.php:988
+msgid "Reviews"
+msgstr "آراء العملاء"
+
+#: inc/options.php:562
+msgid "Contact (homepage section)"
+msgstr ""
+
+#: inc/options.php:563
+msgid "Footer"
+msgstr ""
+
+#: inc/options.php:564
+msgid "Services page"
+msgstr ""
+
+#: inc/options.php:565
+#: template-parts/home/contact.php:47
+msgid "Contact page"
+msgstr ""
+
+#: inc/options.php:566
+#: inc/options.php:790
+msgid "About page"
+msgstr ""
+
+#: inc/options.php:567
+msgid "FAQ page"
+msgstr ""
+
+#: inc/options.php:568
+msgid "Other pages"
+msgstr ""
+
+#: inc/options.php:569
+msgid "Contact form"
+msgstr ""
+
+#: inc/options.php:571
+msgid "Client logos"
+msgstr ""
+
+#: inc/options.php:572
+msgid "SEO & sharing"
+msgstr "السيو والمشاركة"
+
+#: inc/options.php:573
+msgid "Name & profiles (search + AI answers)"
+msgstr "الاسم والحسابات (البحث وإجابات الذكاء الاصطناعي)"
+
+#: inc/options.php:588
+msgid "Auto: visitor device setting on first visit, then their last toggle choice"
+msgstr ""
+
+#: inc/options.php:593
+msgid "Natural titanium"
+msgstr ""
+
+#: inc/options.php:594
+msgid "Black titanium"
+msgstr ""
+
+#: inc/options.php:595
+msgid "White titanium"
+msgstr ""
+
+#: inc/options.php:598
+msgid "Fixed: always at the top, no motion"
+msgstr ""
+
+#: inc/options.php:599
+msgid "Hide on scroll down, show on scroll up"
+msgstr ""
+
+#: inc/options.php:602
+msgid "Visitors choose (show the toggle, start from the mode above)"
+msgstr ""
+
+#: inc/options.php:603
+msgid "Always use the mode above (hide the toggle)"
+msgstr ""
+
+#: inc/options.php:607
+msgid "As the look preset"
+msgstr ""
+
+#: inc/options.php:608
+msgid "Full (devices, reveals, marquee)"
+msgstr ""
+
+#: inc/options.php:609
+msgid "Subtle (fades only)"
+msgstr ""
+
+#: inc/options.php:610
+msgid "Off"
+msgstr ""
+
+#: inc/options.php:613
+msgid "Allow (recommended: lets AI answers cite you)"
+msgstr "سماح (مُوصى به: يخلّي إجابات الذكاء الاصطناعي تذكرك)"
+
+#: inc/options.php:614
+msgid "Block AI training/answer crawlers"
+msgstr "منع زواحف الذكاء الاصطناعي"
+
+#: inc/options.php:617
+msgid "Theme v1.8 design"
+msgstr ""
+
+#: inc/options.php:618
+msgid "Panel plugin (1.7 layout)"
+msgstr ""
+
+#: inc/options.php:621
+msgid "Reading direction (right-to-left on Arabic pages)"
+msgstr ""
+
+#: inc/options.php:622
+msgid "Opposite to reading direction"
+msgstr ""
+
+#: inc/options.php:625
+msgid "Auto: drop the white background (blend) and lighten dark ink"
+msgstr ""
+
+#: inc/options.php:626
+msgid "Invert colours (for a dark logo on white)"
+msgstr ""
+
+#: inc/options.php:627
+msgid "Keep as is on a rounded light plate"
+msgstr ""
+
+#: inc/options.php:628
+msgid "No change"
+msgstr ""
+
+#: inc/options.php:631
+msgid "Right (left on Arabic pages)"
+msgstr ""
+
+#: inc/options.php:632
+msgid "Left (right on Arabic pages)"
+msgstr ""
+
+#: inc/options.php:635
+msgid "Priority"
+msgstr ""
+
+#: inc/options.php:636
+msgid "Random"
+msgstr ""
+
+#: inc/options.php:637
+msgid "Newest"
+msgstr ""
+
+#: inc/options.php:640
+msgid "Mixed: dark hero + light body (recommended)"
+msgstr ""
+
+#: inc/options.php:641
+msgid "Light: full light reading page"
+msgstr ""
+
+#: inc/options.php:642
+msgid "Editorial: full-bleed image hero, narrow column"
+msgstr ""
+
+#: inc/options.php:645
+msgid "Card grid (default)"
+msgstr ""
+
+#: inc/options.php:646
+msgid "Compact list"
+msgstr ""
+
+#: inc/options.php:647
+msgid "Large featured grid"
+msgstr ""
+
+#: inc/options.php:650
+msgid "Page numbers"
+msgstr ""
+
+#: inc/options.php:651
+msgid "Load more button"
+msgstr ""
+
+#: inc/options.php:652
+msgid "Infinite scroll"
+msgstr ""
+
+#: inc/options.php:770
+msgid "Show"
+msgstr ""
+
+#: inc/options.php:796
+msgid "Developer portrait"
+msgstr ""
+
+#: inc/options.php:797
+msgid "Empty hides the photo on the About page. Prefer 1200 × 1500 px (4:5)."
+msgstr ""
+
+#: inc/options.php:816
+msgid "Blog post chrome"
+msgstr ""
+
+#: inc/options.php:821
+msgid "Show or hide each piece on single posts. Off removes the markup, not an empty wrapper."
+msgstr ""
+
+#: inc/options.php:825
+msgid "Reading progress bar"
+msgstr ""
+
+#: inc/options.php:830
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/options.php:835
+msgid "Post meta row"
+msgstr ""
+
+#: inc/options.php:837
+msgid "Date, categories, and reading time in the post hero."
+msgstr ""
+
+#: inc/options.php:842
+msgid "Updated date"
+msgstr ""
+
+#: inc/options.php:844
+msgid "Shown only when the post was edited more than a day after publishing."
+msgstr ""
+
+#: inc/options.php:849
+#: single-post.php:99
+msgid "Table of contents"
+msgstr ""
+
+#: inc/options.php:854
+msgid "Share buttons"
+msgstr ""
+
+#: inc/options.php:859
+msgid "Author box"
+msgstr ""
+
+#: inc/options.php:864
+msgid "Related posts"
+msgstr ""
+
+#: inc/options.php:869
+msgid "End-of-post call to action"
+msgstr ""
+
+#: inc/options.php:874
+msgid "Comments"
+msgstr ""
+
+#: inc/options.php:876
+msgid "Comments template only when comments are open or already have replies."
+msgstr ""
+
+#: inc/options.php:900
+msgid "On"
+msgstr ""
+
+#: inc/options.php:905
+msgid "SEO, Arabic & portfolio"
+msgstr ""
+
+#: inc/options.php:910
+msgid "SEO"
+msgstr ""
+
+#: inc/options.php:914
+msgid "WPML hreflang in the head"
+msgstr ""
+
+#: inc/options.php:916
+msgid "Keeps WPML language tags on. Rank Math is not the source of truth."
+msgstr ""
+
+#: inc/options.php:923
+msgid "Hide X-Powered-By"
+msgstr ""
+
+#: inc/options.php:932
+msgid "Schema name variants"
+msgstr ""
+
+#: inc/options.php:934
+msgid "Adds alternateName on Person and WebSite. Fill “Other spellings” in Name & profiles to override the built-in list."
+msgstr ""
+
+#: inc/options.php:942
+msgid "Other spellings of your name"
+msgstr ""
+
+#: inc/options.php:943
+msgid "One per line. Empty = built-in Arabic/Latin variants for schema only (not shown in About)."
+msgstr ""
+
+#: inc/options.php:947
+msgid "Arabic chrome"
+msgstr ""
+
+#: inc/options.php:951
+msgid "Translate chrome on /ar/"
+msgstr ""
+
+#: inc/options.php:953
+msgid "Options, gettext and menu titles. Stored map is option mah_ar_chrome_map."
+msgstr ""
+
+#: inc/options.php:961
+msgid "Arabic chrome map"
+msgstr ""
+
+#: inc/options.php:962
+msgid "One per line: English | Arabic. Empty keeps the stored map. Saving a filled field replaces it."
+msgstr ""
+
+#: inc/options.php:966
+msgid "Portfolio"
+msgstr ""
+
+#: inc/options.php:970
+msgid "Public project pages"
+msgstr ""
+
+#: inc/options.php:972
+msgid "Off = cards on the home stage only; /work redirects home. Matches the live site."
+msgstr ""
+
+#: inc/options.php:979
+msgid "“View project” link on cards"
+msgstr ""
+
+#: inc/options.php:992
+msgid "Hide Upwork profile links"
+msgstr ""
+
+#: inc/options.php:994
+msgid "Review text stays. Profile URLs are stripped from options, HTML and JSON-LD."
+msgstr ""
+
+#: inc/options.php:1001
+msgid "Interleave review sources"
+msgstr ""
+
+#: inc/options.php:1003
+msgid "Avoids a run of Trustpilot (or any one source) in the marquee."
+msgstr ""
+
+#: inc/options.php:1010
+msgid "Watermark"
+msgstr ""
+
+#: inc/options.php:1014
+msgid "Admin watermark REST"
+msgstr ""
+
+#: inc/options.php:1016
+msgid "mah/v1/wm-probe, wm-apply, wm-restore. Manage-options only."
+msgstr ""
+
+#: inc/options.php:1024
+msgid "Watermark text"
+msgstr ""
+
+msgid "MX About"
+msgstr ""
+
+msgid "MX Contact"
+msgstr ""
+
+#: page-contact.php:73
+msgid "Contact details"
+msgstr ""
+
+#: page-contact.php:85
+msgid "Location"
+msgstr "الموقع"
+
+#: page-contact.php:88
+msgid "Availability"
+msgstr "التوفّر"
+
+#: page-contact.php:132
+msgid "Leave this empty"
+msgstr "اترك هذا الحقل فارغًا"
+
+#: page-contact.php:159
+#: page-contact.php:169
+#: page-contact.php:183
+msgid "Choose…"
+msgstr "اختر…"
+
+#: page-contact.php:218
+msgid "Map"
+msgstr ""
+
+msgid "MX FAQ"
+msgstr ""
+
+msgid "MX Services"
+msgstr ""
+
+#: single-post.php:43
+msgid "Breadcrumb"
+msgstr ""
+
+#: single-post.php:72
+msgid "Updated %s"
+msgstr ""
+
+#: single-post.php:98
+msgid "On this page"
+msgstr "في الصفحة دي"
+
+#: single-post.php:143
+msgid "Share this article"
+msgstr ""
+
+#: single-post.php:144
+msgid "Share"
+msgstr ""
+
+#: single-post.php:148
+msgid "Link copied"
+msgstr ""
+
+#: single-post.php:148
+msgid "Copy link"
+msgstr ""
+
+#: single-post.php:160
+msgid "About the author"
+msgstr ""
+
+#: single-post.php:220
+msgid "Previous articles"
+msgstr ""
+
+#: single-post.php:221
+msgid "Next articles"
+msgstr ""
+
+#: template-parts/home/about.php:50
+#: template-parts/home/hero.php:38
+msgid "Skills"
+msgstr "المهارات"
+
+#: template-parts/home/clients.php:71
+msgid "Pause the logo animation"
+msgstr ""
+
+#: template-parts/home/hero.php:69
+msgid "Choose a portrait in Customize > Muhamed Ahmed > Hero, or Site Content > Portrait in the panel."
+msgstr ""
+
+#: template-parts/home/hero.php:87
+msgid "Scroll to selected work"
+msgstr ""
+
+#: template-parts/home/posts.php:34
+msgid "All articles"
+msgstr "كل المقالات"
+
+#: template-parts/home/stage.php:136
+msgid "Projects"
+msgstr ""
+
+#: template-parts/home/stats.php:16
+msgid "Key figures"
+msgstr ""
+
+#: template-parts/home/stats.php:24
+msgid "Unverified: editors only"
+msgstr ""
+
+#: theme.json
+msgid "Ink"
+msgstr ""
+
+#: theme.json
+msgid "Band"
+msgstr ""
+
+#: theme.json
+msgid "Paper"
+msgstr ""
+
+#: theme.json
+msgid "Ground"
+msgstr ""
+
+#: theme.json
+msgid "Muted"
+msgstr ""
+
+#: theme.json
+msgid "Accent lime"
+msgstr ""
+
+#: theme.json
+msgid "Hairline"
+msgstr ""
+
+#: theme.json
+msgid "Hairline inverse"
+msgstr ""
+
+#: theme.json
+msgid "Accent glow"
+msgstr ""
+
+#: theme.json
+msgid "Band deep"
+msgstr ""
+
+#: theme.json
+msgid "Hero scrim"
+msgstr ""
+
+#: theme.json
+msgid "Display"
+msgstr ""
+
+#: theme.json
+msgid "Body"
+msgstr ""
+
+#: theme.json
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgid "Lead"
+msgstr ""
+
+#: theme.json
+msgid "Section heading"
+msgstr ""
+
+#: theme.json
+msgid "Display"
+msgstr ""
+
+#: theme.json
+msgid "1 Tight"
+msgstr ""
+
+#: theme.json
+msgid "2 Tight"
+msgstr ""
+
+#: theme.json
+msgid "3 Section"
+msgstr ""
+
+#: theme.json
+msgid "4 Band"
+msgstr ""
+
+#: theme.json
+msgid "Soft"
+msgstr ""
+
+msgid "Online stores and websites that *sell*, load *fast* and save you time."
+msgstr "متاجر إلكترونية ومواقع *تبيع* و*سريعة* وبتوفّر وقتك."
+
+msgid "I build WooCommerce stores and business websites, including for brands that run more than one shop or site, and add what pays back: automation, speed optimisation, AI tooling and conversion fixes."
+msgstr "مطور مواقع ووردبريس ومتاجر ووكومرس: بصمّم متاجر إلكترونية احترافية ومواقع للشركات، حتى للبراندات اللي عندها أكتر من متجر أو موقع، وبضيف اللي بيرجع بفايدة: أتمتة، وتسريع موقع ووردبريس، وأدوات ذكاء اصطناعي، وتحسين التحويل."
+
+msgid "See the work"
+msgstr "شوف الأعمال"
+
+msgid "E-commerce stores\n"
+"WooCommerce\n"
+"Speed optimisation\n"
+"Automation\n"
+"AI tooling\n"
+"Conversion"
+msgstr "متاجر إلكترونية\n"
+"ووكومرس\n"
+"تسريع المواقع\n"
+"أتمتة\n"
+"أدوات الذكاء الاصطناعي\n"
+"تحسين التحويل"
+
+msgid "Stores and sites I built"
+msgstr "متاجر ومواقع نفّذتها"
+
+msgid "Solutions"
+msgstr "الحلول"
+
+msgid "Solutions that *add value*, not just pages"
+msgstr "حلول *بتضيف قيمة*، مش مجرد صفحات"
+
+msgid "Journal"
+msgstr "المدونة"
+
+msgid "Notes on online stores, speed, automation and AI"
+msgstr "عن المتاجر الإلكترونية والسرعة والأتمتة والذكاء الاصطناعي"
+
+msgid "Need a store or site that *works harder*?"
+msgstr "محتاج متجر أو موقع *يشتغل أكتر*؟"
+
+msgid "Journal: online stores, WooCommerce and website speed"
+msgstr "المدونة: تصميم المتاجر الإلكترونية وووكومرس وتسريع المواقع"
+
+msgid "Hire me"
+msgstr "اطلب الخدمة"
+
+msgid "Let's talk"
+msgstr "يلا نتكلم"
+
+msgid "Related articles"
+msgstr "مقالات ذات صلة"
+
+msgid "Book a free consultation"
+msgstr "احجز استشارة مجانية"
+
+msgid "View details"
+msgstr "عرض التفاصيل"
